@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProcessCraftWorkflow" table="Process_Craft_Workflow" lazy="true" >
+    <id name="Id" column="Id" />
+    <many-to-one name="Order">
+      <column name="ORDER_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="LinkName">
+      <column name="Link_Name" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProductPosition">
+      <column name="Product_Position" sql-type="char" not-null="false" />
+    </property>
+    <property name="TargetNum">
+      <column name="Target_Num" sql-type="int" not-null="false" />
+    </property>
+    <property name="OutputProcessFlowId">
+      <column name="Output_Process_Flow_Id" sql-type="char" not-null="false" />
+    </property>
+    <property name="BoltProcessFlowId">
+      <column name="Bolt_Process_Flow_Id" sql-type="char" not-null="false" />
+    </property>
+    <property name="Remark">
+      <column name="Remark" sql-type="varchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

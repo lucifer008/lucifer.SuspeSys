@@ -1,0 +1,8 @@
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Debug\SuspeSys.Support.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Debug\SuspeSys.Support.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Debug\AutoMapper.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Debug\log4net.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Debug\AutoMapper.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Debug\log4net.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\obj\Debug\SuspeSys.Support.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\obj\Debug\SuspeSys.Support.pdb

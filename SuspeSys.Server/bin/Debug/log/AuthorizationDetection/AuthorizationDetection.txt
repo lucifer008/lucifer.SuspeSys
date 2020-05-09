@@ -1,0 +1,3 @@
+日期--->2020-01-09 15:00:30,922 线程ID--->[1] INFO  AuthorizationDetection [(null)] <(null)> - 授权文件不存在
+日期--->2020-01-09 15:19:49,753 线程ID--->[1] INFO  AuthorizationDetection [(null)] <(null)> - 授权文件不存在
+日期--->2020-01-09 15:28:29,843 线程ID--->[1] INFO  AuthorizationDetection [(null)] <(null)> - 授权文件不存在

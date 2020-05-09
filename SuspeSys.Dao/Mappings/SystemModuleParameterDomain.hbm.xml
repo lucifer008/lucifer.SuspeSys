@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SystemModuleParameterDomain" table="SystemModuleParameterDomain" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="SystemModuleParameter">
+      <column name="SYSTEMMODULEPARAMETER_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="Code">
+      <column name="Code" sql-type="varchar" not-null="true" />
+    </property>
+    <property name="Name">
+      <column name="Name" sql-type="varchar" not-null="true" />
+    </property>
+    <property name="Enable">
+      <column name="Enable" sql-type="bit" not-null="true" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

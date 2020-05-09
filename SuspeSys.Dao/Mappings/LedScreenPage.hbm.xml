@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="LedScreenPage" table="LEDScreenPage" lazy="false" >
+    <id name="Id" column="ID">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="LedScreenConfig">
+      <column name="LEDSCREENCONFIG_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="PageNo">
+      <column name="PageNo" sql-type="int" not-null="false" />
+    </property>
+    <property name="InfoType">
+      <column name="InfoType" sql-type="int" not-null="false" />
+    </property>
+    <property name="InfoTypeTxt">
+      <column name="InfoTypeTxt" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CusContent">
+      <column name="CusContent" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Times">
+      <column name="Times" sql-type="int" not-null="false" />
+    </property>
+    <property name="RefreshCycle">
+      <column name="RefreshCycle" sql-type="int" not-null="false" />
+    </property>
+    <property name="Enabled">
+      <column name="Enabled" sql-type="bit" not-null="false" />
+    </property>
+    <property name="InsertTime">
+      <column name="InsertTime" sql-type="datetime" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

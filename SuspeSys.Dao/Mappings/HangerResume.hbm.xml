@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="HangerResume" table="HangerResume" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="MainTrackNumber">
+      <column name="MainTrackNumber" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProductsId">
+      <column name="ProductsId" sql-type="char" not-null="false" />
+    </property>
+    <property name="BatchNo">
+      <column name="BatchNo" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="GroupNo">
+      <column name="GroupNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Unit">
+      <column name="Unit" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="HangerNo">
+      <column name="HangerNo" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="StyleNo">
+      <column name="StyleNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="IsHangerSucess">
+      <column name="IsHangerSucess" sql-type="bit" not-null="false" />
+    </property>
+    <property name="Po">
+      <column name="PO" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessOrderNo">
+      <column name="ProcessOrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessChartId">
+      <column name="ProcessChartId" sql-type="char" not-null="false" />
+    </property>
+    <property name="FlowIndex">
+      <column name="FlowIndex" sql-type="int" not-null="false" />
+    </property>
+    <property name="FlowId">
+      <column name="FlowId" sql-type="char" not-null="false" />
+    </property>
+    <property name="FlowNo">
+      <column name="FlowNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="FlowCode">
+      <column name="FlowCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="FlowName">
+      <column name="FlowName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StatingId">
+      <column name="StatingId" sql-type="char" not-null="false" />
+    </property>
+    <property name="StatingNo">
+      <column name="StatingNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StatingCapacity">
+      <column name="StatingCapacity" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="NextStatingNo">
+      <column name="NextStatingNo" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="FlowRealyProductStatingNo">
+      <column name="FlowRealyProductStatingNo" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="Status">
+      <column name="Status" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="FlowType">
+      <column name="FlowType" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="IsFlowSucess">
+      <column name="IsFlowSucess" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsReworkSourceStating">
+      <column name="IsReworkSourceStating" sql-type="bit" not-null="false" />
+    </property>
+    <property name="DefectCode">
+      <column name="DefectCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="DefcectName">
+      <column name="DefcectName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PColor">
+      <column name="PColor" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PSize">
+      <column name="PSize" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="EmployeeName">
+      <column name="EmployeeName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CardNo2">
+      <column name="CardNo2" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="EmployeeNo">
+      <column name="EmployeeNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="IncomeSiteDate">
+      <column name="IncomeSiteDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="CompareDate">
+      <column name="CompareDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="OutSiteDate">
+      <column name="OutSiteDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="ReworkEmployeeNo">
+      <column name="ReworkEmployeeNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ReworkEmployeeName">
+      <column name="ReworkEmployeeName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ReworkDate">
+      <column name="ReworkDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="ReworkMaintrackNumber">
+      <column name="ReworkMaintrackNumber" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="ReworkStatingNo">
+      <column name="ReworkStatingNo" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CheckResult">
+      <column name="CheckResult" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CheckInfo">
+      <column name="CheckInfo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StanardHours">
+      <column name="StanardHours" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StandardPrice">
+      <column name="StandardPrice" sql-type="decimal" not-null="false" />
+    </property>
+    <property name="HangerStatus">
+      <column name="HangerStatus" sql-type="int" not-null="false" />
+    </property>
+    <property name="HangerStatusDesc">
+      <column name="HangerStatusDesc" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\SuspeSys.Utils.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\SuspeSys.Utils.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\IdentityModel.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\log4net.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\Newtonsoft.Json.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\IdentityModel.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\log4net.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Debug\Newtonsoft.Json.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\obj\Debug\SuspeSys.Utils.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\obj\Debug\SuspeSys.Utils.pdb

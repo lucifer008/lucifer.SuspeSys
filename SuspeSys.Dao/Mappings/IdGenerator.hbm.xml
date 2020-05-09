@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="IdGenerator" table="ID_GENERATOR" lazy="false" >
+    <id name="Id" column="ID">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="FlagNo">
+      <column name="FLAG_NO" sql-type="varchar" not-null="true" />
+    </property>
+    <property name="BeginValue">
+      <column name="BEGIN_VALUE" sql-type="bigint" not-null="true" />
+    </property>
+    <property name="CurrentValue">
+      <column name="CURRENT_VALUE" sql-type="bigint" not-null="true" />
+    </property>
+    <property name="EndValue">
+      <column name="END_VALUE" sql-type="bigint" not-null="true" />
+    </property>
+    <property name="SortValue">
+      <column name="SORT_VALUE" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="Memo">
+      <column name="MEMO" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

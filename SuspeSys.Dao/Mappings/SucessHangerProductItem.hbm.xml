@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SucessHangerProductItem" table="SucessHangerProductItem" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="GroupNo">
+      <column name="GroupNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="MainTrackNumber">
+      <column name="MainTrackNumber" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="ProductsId">
+      <column name="ProductsId" sql-type="char" not-null="false" />
+    </property>
+    <property name="BatchNo">
+      <column name="BatchNo" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="HangerNo">
+      <column name="HangerNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessOrderId">
+      <column name="ProcessOrderId" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessOrderNo">
+      <column name="ProcessOrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PColor">
+      <column name="PColor" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PSize">
+      <column name="PSize" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="FlowChartd">
+      <column name="FlowChartd" sql-type="char" not-null="false" />
+    </property>
+    <property name="LineName">
+      <column name="LineName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="SizeNum">
+      <column name="SizeNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="ProcessFlowId">
+      <column name="ProcessFlowId" sql-type="char" not-null="false" />
+    </property>
+    <property name="FlowNo">
+      <column name="FlowNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessFlowCode">
+      <column name="ProcessFlowCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessFlowName">
+      <column name="ProcessFlowName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="FlowIndex">
+      <column name="FlowIndex" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="HpIndex">
+      <column name="HPIndex" sql-type="int" not-null="false" />
+    </property>
+    <property name="SiteId">
+      <column name="SiteId" sql-type="char" not-null="false" />
+    </property>
+    <property name="SiteNo">
+      <column name="SiteNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="IsFlowChatChange">
+      <column name="IsFlowChatChange" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsIncomeSite">
+      <column name="IsIncomeSite" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsSucessedFlow">
+      <column name="IsSucessedFlow" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsReturnWorkFlow">
+      <column name="IsReturnWorkFlow" sql-type="bit" not-null="false" />
+    </property>
+    <property name="ReturnWorkSiteNo">
+      <column name="returnWorkSiteNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ClientMachineId">
+      <column name="ClientMachineId" sql-type="char" not-null="false" />
+    </property>
+    <property name="SusLineId">
+      <column name="SusLineId" sql-type="char" not-null="false" />
+    </property>
+    <property name="IncomeSiteDate">
+      <column name="IncomeSiteDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="CompareDate">
+      <column name="CompareDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="OutSiteDate">
+      <column name="OutSiteDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

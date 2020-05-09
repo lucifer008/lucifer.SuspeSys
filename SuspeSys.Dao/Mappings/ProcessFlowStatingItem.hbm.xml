@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProcessFlowStatingItem" table="ProcessFlowStatingItem" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="ProcessFlowChartFlowRelation">
+      <column name="PROCESSFLOWCHARTFLOWRELATION_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="Stating">
+      <column name="STATING_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="IsReceivingHanger">
+      <column name="IsReceivingHanger" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="ReceingContent">
+      <column name="ReceingContent" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="SiteGroupNo">
+      <column name="SiteGroupNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="MainTrackNumber">
+      <column name="mainTrackNumber" sql-type="int" not-null="false" />
+    </property>
+    <property name="No">
+      <column name="No" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StatingRoleName">
+      <column name="StatingRoleName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StatingRoleCode">
+      <column name="StatingRoleCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="IsReceivingAllSize">
+      <column name="IsReceivingAllSize" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsReceivingAllColor">
+      <column name="IsReceivingAllColor" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsReceivingAllPoNumber">
+      <column name="isReceivingAllPONumber" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsEndStating">
+      <column name="IsEndStating" sql-type="bit" not-null="false" />
+    </property>
+    <property name="Proportion">
+      <column name="Proportion" sql-type="decimal" not-null="false" />
+    </property>
+    <property name="ReceivingColor">
+      <column name="ReceivingColor" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ReceivingSize">
+      <column name="ReceivingSize" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ReceivingPoNumber">
+      <column name="ReceivingPONumber" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

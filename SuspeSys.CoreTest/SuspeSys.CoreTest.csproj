@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28B0B4BB-4481-420B-8258-067E9E093AED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuspeSys.CoreTest</RootNamespace>
+    <AssemblyName>SuspeSys.CoreTest</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="HibernatingRhinos.Profiler.Appender">
+      <HintPath>..\Libs\HibernatingRhinos.Profiler.Appender.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=0.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Core\EmployeeLoginTest.cs" />
+    <Compile Include="Core\Hanging\HangingTest.cs" />
+    <Compile Include="Core\OutSite\OutSiteAdapterCompanyTests.cs" />
+    <Compile Include="Core\OutSite\OutSiteAdapterTests.cs" />
+    <Compile Include="F2\F2CompanyCrossMainTrackUnitTest.cs" />
+    <Compile Include="F2\F2CrossMainTrackUnitTest.cs" />
+    <Compile Include="F2\F2UnitTest.cs" />
+    <Compile Include="F2\F2CompanyUnitTest.cs" />
+    <Compile Include="FaultRepair\FaultRepairTest.cs" />
+    <Compile Include="FlowDeleteOrStatingDelete\FlowDeleteOrStatingDeleteTest.cs" />
+    <Compile Include="MaterialCall\MaterialCallStopTest.cs" />
+    <Compile Include="MaterialCall\MaterialCallTest.cs" />
+    <Compile Include="MaterialCall\MaterialCallUploadTest.cs" />
+    <Compile Include="Monitor\MonitorUploadTest.cs" />
+    <Compile Include="Monitor\MonitorUploadCompanyTest.cs" />
+    <Compile Include="Products\ProductsUnitTest.cs" />
+    <Compile Include="Query\ProductRealtimeInfoServiceImplCompanyTests.cs" />
+    <Compile Include="Query\ProductRealtimeInfoServiceImplTests.cs" />
+    <Compile Include="Query\QueryHangerProcessFlowChartTest.cs" />
+    <Compile Include="Query\QueryHangerStatingItemTest.cs" />
+    <Compile Include="Rework\ReworkDecodeUploadUnitCompanyTest.cs" />
+    <Compile Include="Rework\ReworkDecodeUploadUnitTest.cs" />
+    <Compile Include="QueryTestBase.cs" />
+    <Compile Include="Task\Jobs\EmployeeAutomaticJobTests.cs" />
+    <Compile Include="TestBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTestLogin.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\hibernate.cfg.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\log4net.cfg - 复制.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\log4net.cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sus.Net.Client\Sus.Net.Client.csproj">
+      <Project>{359C4D9C-FB15-4CDC-8E24-4CECF269C747}</Project>
+      <Name>Sus.Net.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sus.Net.Common\Sus.Net.Common.csproj">
+      <Project>{7EF7B4DD-57C3-478D-B750-7AD9140D717D}</Project>
+      <Name>Sus.Net.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.AuxiliaryTools\SuspeSys.AuxiliaryTools.csproj">
+      <Project>{E814A433-3BDE-4833-8D6B-F930BDFE9FF3}</Project>
+      <Name>SuspeSys.AuxiliaryTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Client\SuspeSys.Client.csproj">
+      <Project>{203E75E9-3D77-4683-8327-3D34003F0F0D}</Project>
+      <Name>SuspeSys.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Dao\SuspeSys.Dao.csproj">
+      <Project>{E09563D0-4E7C-4F02-9C9B-7A6C50499FFB}</Project>
+      <Name>SuspeSys.Dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Model\SuspeSys.Domain.csproj">
+      <Project>{B965CBB5-41A5-4BBA-917F-4AF482A56221}</Project>
+      <Name>SuspeSys.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Remoting\SuspeSys.Remoting.csproj">
+      <Project>{7F515BF0-7AC2-4D1F-854E-BD60F36D48F9}</Project>
+      <Name>SuspeSys.Remoting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Service.Impl\SuspeSys.Service.Impl.csproj">
+      <Project>{D67AA225-9127-4830-98A0-CE10AC98197A}</Project>
+      <Name>SuspeSys.Service.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.SusRedisService\SuspeSys.SusRedisService.csproj">
+      <Project>{F8A5C144-6092-445E-A660-0124DEE0FCC3}</Project>
+      <Name>SuspeSys.SusRedisService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Utils\SuspeSys.Utils.csproj">
+      <Project>{F3AC00B0-4BC8-423F-9EE3-E836765F1A93}</Project>
+      <Name>SuspeSys.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="OrderedTest1.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cache\" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

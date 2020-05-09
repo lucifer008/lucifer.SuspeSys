@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Employee" table="Employee" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="Department">
+      <column name="DEPARTMENT_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="Area">
+      <column name="AREA_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="Organizations">
+      <column name="ORGANIZATIONS_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="WorkType">
+      <column name="WORKTYPE_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="SiteGroup">
+      <column name="SITEGROUP_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="Code">
+      <column name="Code" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Password">
+      <column name="Password" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="RealName">
+      <column name="RealName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Birthday">
+      <column name="Birthday" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="HeadImage">
+      <column name="HeadImage" sql-type="image" not-null="false" />
+    </property>
+    <property name="Sex">
+      <column name="Sex" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="Email">
+      <column name="Email" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CardNo">
+      <column name="CardNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Phone">
+      <column name="Phone" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Mobile">
+      <column name="Mobile" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Valid">
+      <column name="Valid" sql-type="bit" not-null="false" />
+    </property>
+    <property name="EmploymentDate">
+      <column name="EmploymentDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Address">
+      <column name="Address" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StartingDate">
+      <column name="StartingDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="LeaveDate">
+      <column name="LeaveDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="BankCardNo">
+      <column name="BankCardNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="TestSiteTable" table="TestSiteTable" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="StatingNo">
+      <column name="StatingNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="HangerNo">
+      <column name="HangerNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessOrderNo">
+      <column name="ProcessOrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PColor">
+      <column name="PColor" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PSize">
+      <column name="PSize" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessFlowCode">
+      <column name="ProcessFlowCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessFlowName">
+      <column name="ProcessFlowName" sql-type="varchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+
+  <!--<logger name="MontorLogger">
+    <level value="ALL" />
+    <appender-ref ref="MontorAppender" />
+  </logger>
+  <logger name="CacheInfo">
+    <level value="ALL" />
+    <appender-ref ref="CacheAppender" />
+  </logger>
+  <logger name="RedisLogInfo">
+    <level value="ALL" />
+    <appender-ref ref="RedisAppender" />
+  </logger>
+  <logger name="TcpLogInfo">
+    <level value="ALL" />
+    <appender-ref ref="TcpInfoAppender" />
+  </logger>
+  <logger name="AuthorizationDetection">
+    <level value="ALL" />
+    <appender-ref ref="AuthorizationDetectionrAppender" />
+  </logger>
+  <logger name="TcpErrorInfo">
+    <level value="ALL" />
+    <appender-ref ref="TcpErrorAppender" />
+  </logger>
+  <logger name="TcpHardwareInfo">
+    <level value="ALL" />
+    <appender-ref ref="TcpHardwareAppender" />
+  </logger>
+  <logger name="Error">
+    <level value="ALL" />
+    <appender-ref ref="ErrorAppender" />
+  </logger>
+  <logger name="Timers">
+    <level value="ALL" />
+    <appender-ref ref="TimesAppender" />
+  </logger>
+
+  <logger name="NHibernate" additivity="false">
+    <level value="ERROR"/>
+    <appender-ref ref="DebugAppender" />
+  </logger>
+  <logger name="NHibernate.SQL" additivity="false">
+    <level value="ERROR"/>
+    <appender-ref ref="DebugAppender" />
+  </logger>-->
+
+  
+  <!--如果只需要看看Sql设置INFO就够了，如果你要调试可以设置为DEBUG或ALL-->
+  <appender name="AdoNetAppender" type="log4net.Appender.AdoNetAppender">
+    <bufferSize value="100" />
+    <connectionType value="System.Data.SqlClient.SqlConnection, System.Data, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <connectionString value="data source=[localhost];initial catalog=[SyspeSysV2.0];integrated security=false;persist security info=True;User ID=[sa];Password=[sa]" />
+    <commandText value="INSERT INTO Log ([Date],[Thread],[Level],[Logger],[Message],[Exception]) VALUES (@log_date, @thread, @log_level, @logger, @message, @exception)" />
+    <parameter>
+      <parameterName value="@log_date" />
+      <dbType value="DateTime" />
+      <layout type="log4net.Layout.RawTimeStampLayout" />
+    </parameter>
+    <parameter>
+      <parameterName value="@thread" />
+      <dbType value="String" />
+      <size value="255" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%thread" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@log_level" />
+      <dbType value="String" />
+      <size value="50" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%level" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@logger" />
+      <dbType value="String" />
+      <size value="255" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%logger" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@message" />
+      <dbType value="String" />
+      <size value="4000" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%message" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@exception" />
+      <dbType value="String" />
+      <size value="2000" />
+      <layout type="log4net.Layout.ExceptionLayout" />
+    </parameter>
+  </appender>
+  <root>
+   
+    <level value="ALL" />  
+      <appender-ref ref="AdoNetAppender" />  
+  </root>
+
+</log4net>

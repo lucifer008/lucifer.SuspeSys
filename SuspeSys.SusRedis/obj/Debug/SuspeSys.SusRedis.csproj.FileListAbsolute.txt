@@ -1,0 +1,4 @@
+E:\suspe-source\SuspeSys2.0\SuspeSys.SusRedis\bin\Debug\SuspeSys.SusRedis.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.SusRedis\bin\Debug\SuspeSys.SusRedis.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.SusRedis\obj\Debug\SuspeSys.SusRedis.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.SusRedis\obj\Debug\SuspeSys.SusRedis.pdb

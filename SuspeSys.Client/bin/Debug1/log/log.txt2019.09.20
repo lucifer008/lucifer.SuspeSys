@@ -1,0 +1,109 @@
+2019-09-20 11:47:44,114 [9] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-20 11:47:46,868 [9] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-20 11:47:46,869 [9] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-20 11:47:47,064 [9] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 11:47:47,082 [9] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 11:47:47,083 [9] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-20 11:47:47,084 [9] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-20 11:48:14,458 [9] ERROR SuspeSys.Client.Action.BaseAction [(null)] <(null)> - System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 SuspeSys.Dao.DapperHelp.QueryForList[U](String sql, Object para) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Dao\SuspeDapper\DapperHelp.cs:行号 203
+   在 SuspeSys.Service.Impl.LanguageServiceImpl.InitLanguage() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\LanguageServiceImpl.cs:行号 48
+   在 SuspeSys.Client.Action.LanguageAction.InitLanguage() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Action\LanguageAction.cs:行号 47
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2019-09-20 11:48:14,476 [9] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.
+2019-09-20 11:49:15,988 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-20 11:49:17,835 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-20 11:49:17,837 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-20 11:49:17,974 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 11:49:17,981 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 11:49:17,983 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-20 11:49:17,984 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-20 11:49:18,058 [4] ERROR SuspeSys.Client.Action.BaseAction [(null)] <(null)> - System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 SuspeSys.Dao.DapperHelp.QueryForList[U](String sql, Object para) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Dao\SuspeDapper\DapperHelp.cs:行号 203
+   在 SuspeSys.Service.Impl.LanguageServiceImpl.InitLanguage() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\LanguageServiceImpl.cs:行号 48
+   在 SuspeSys.Client.Action.LanguageAction.InitLanguage() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Action\LanguageAction.cs:行号 47
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2019-09-20 11:49:18,062 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.
+2019-09-20 11:49:35,586 [1] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化开始
+2019-09-20 11:49:35,590 [1] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-20 17:18:12,544 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-20 17:18:15,482 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-20 17:18:15,483 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-20 17:18:15,682 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 17:18:15,698 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 17:18:15,700 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-20 17:22:55,270 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-20 17:22:57,189 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-20 17:22:57,190 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-20 17:22:57,347 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 17:22:57,354 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 17:22:57,355 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-20 17:23:32,820 [1] ERROR SuspeSys.Client.Modules.Ext.SusXtraUserControl [(null)] <(null)> - System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:9994
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 SuspeSys.Client.Action.ProductionLineSet.ProductionLineSetAction.SendMsgToMachineProcess(List`1 pipeling) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Action\ProductionLineSet\ProductionLineSetAction.cs:行号 65
+   在 SuspeSys.Client.Action.ProductionLineSet.ProductionLineSetAction.AddPipelining() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Action\ProductionLineSet\ProductionLineSetAction.cs:行号 20
+   在 SuspeSys.Client.Modules.ProductionLineSet.PipelineMain.Save() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Modules\ProductionLineSet\PipelineMain.cs:行号 192
+   在 SuspeSys.Client.Modules.ProductionLineSet.PipelineMain.SusToolBar_OnButtonClick(ButtonName ButtonName) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Modules\ProductionLineSet\PipelineMain.cs:行号 68
+2019-09-20 17:23:46,811 [1] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化开始
+2019-09-20 17:23:46,813 [1] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-20 17:23:46,836 [1] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.
+2019-09-20 17:23:46,838 [1] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化成功
+2019-09-20 19:03:37,003 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化开始
+2019-09-20 19:03:37,615 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-20 19:03:38,912 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.
+2019-09-20 19:03:41,190 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化成功
+2019-09-20 19:03:50,937 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-20 19:03:53,670 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-20 19:03:53,671 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-20 19:03:53,860 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 19:03:53,880 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 19:03:53,882 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-20 19:43:55,898 [7] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化开始
+2019-09-20 19:43:55,983 [7] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-20 19:43:56,805 [7] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.
+2019-09-20 19:43:56,806 [7] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化成功
+2019-09-20 19:43:56,825 [7] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-20 19:43:57,879 [7] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-20 19:43:57,880 [7] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-20 19:43:57,996 [7] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 19:43:58,026 [7] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 19:43:58,026 [7] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！

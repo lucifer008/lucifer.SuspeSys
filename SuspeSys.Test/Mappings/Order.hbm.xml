@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Order" table="Orders" lazy="true" >
+    <id name="Id">
+      <column name="Id" sql-type="char(32)" not-null="true"/>
+      <generator class="uuid.hex" />
+    </id>
+    <!--<id name="Id" column="Id" />-->
+    <property name="OrderName">
+      <column name="OrderName" sql-type="char" not-null="false" />
+    </property>
+    <property name="OrderPackgeType">
+      <column name="OrderPackgeType" sql-type="numeric" not-null="false" />
+    </property>
+    <property name="OrderType">
+      <column name="OrderType" sql-type="numeric" not-null="false" />
+    </property>
+    <property name="VersionNo">
+      <column name="VersionNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessDate">
+      <column name="ProcessDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="ProcessPerson">
+      <column name="ProcessPerson" sql-type="char" not-null="false" />
+    </property>
+    <property name="SystemOrderNo">
+      <column name="SystemOrderNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="CustomerOrderNo">
+      <column name="CustomerOrderNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessOrderNo">
+      <column name="ProcessOrderNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="CustomerNo">
+      <column name="CustomerNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="SucessDate">
+      <column name="SucessDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Remark">
+      <column name="Remark" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

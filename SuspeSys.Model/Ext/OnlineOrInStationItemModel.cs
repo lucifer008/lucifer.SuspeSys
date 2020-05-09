@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SuspeSys.Domain.Ext
+{
+    [Serializable]
+    public class OnlineOrInStationItemModel: HangerProductFlowChartModel
+    {
+        public virtual bool InStating { set; get; }
+    }
+}

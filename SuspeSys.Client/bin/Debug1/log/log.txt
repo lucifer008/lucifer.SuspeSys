@@ -1,0 +1,10 @@
+2019-10-29 13:09:46,370 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化开始
+2019-10-29 13:09:46,430 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-10-29 13:09:46,452 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.
+2019-10-29 13:09:46,453 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化成功
+2019-10-29 13:09:46,704 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-10-29 13:09:52,278 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-10-29 13:09:52,279 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-10-29 13:09:52,457 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-10-29 13:09:52,477 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-10-29 13:09:52,478 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！

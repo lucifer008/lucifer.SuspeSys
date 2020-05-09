@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="LedHoursPlanTableItem" table="LEDHoursPlanTableItem" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="GroupNo">
+      <column name="GroupNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="BeginDate">
+      <column name="BeginDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="EndDate">
+      <column name="EndDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="PlanNum">
+      <column name="PlanNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="InsertDate">
+      <column name="InsertDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Enabled">
+      <column name="Enabled" sql-type="bit" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

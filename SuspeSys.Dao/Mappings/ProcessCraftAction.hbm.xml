@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProcessCraftAction" table="ProcessCraftAction" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="ActionNo">
+      <column name="ActionNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="ActionDesc">
+      <column name="ActionDesc" sql-type="char" not-null="false" />
+    </property>
+    <property name="IsEnabled">
+      <column name="IsEnabled" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="ProSectionNo">
+      <column name="ProSectionNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProSectionCode">
+      <column name="ProSectionCode" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProSectionName">
+      <column name="ProSectionName" sql-type="char" not-null="false" />
+    </property>
+    <property name="Remark2">
+      <column name="Remark2" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

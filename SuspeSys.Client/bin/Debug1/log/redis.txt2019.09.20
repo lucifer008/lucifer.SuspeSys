@@ -1,0 +1,12 @@
+2019-09-20 11:47:47,064 [9] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 11:47:47,082 [9] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 11:49:17,974 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 11:49:17,981 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 17:18:15,682 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 17:18:15,698 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 17:22:57,347 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 17:22:57,354 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 19:03:53,860 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 19:03:53,880 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-20 19:43:57,996 [7] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-20 19:43:58,026 [7] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FlowAction" table="FlowAction" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="ActionCode">
+      <column name="ActionCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ActionName">
+      <column name="ActionName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="IsEnabled">
+      <column name="IsEnabled" sql-type="tinyint" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+2019-07-06 14:53:35,431 [12] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-07-06 14:53:35,448 [12] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-07-06 14:53:45,167 [12] INFO  RedisLogInfo [(null)] <(null)> - 正在加载预处理数据...
+2019-07-06 14:53:47,788 [12] INFO  RedisLogInfo [(null)] <(null)> - 预处理数据加载完成!
+2019-07-06 14:54:50,876 [12] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-07-06 14:54:50,893 [12] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-07-06 14:54:59,940 [12] INFO  RedisLogInfo [(null)] <(null)> - 正在加载预处理数据...
+2019-07-06 14:55:01,452 [12] INFO  RedisLogInfo [(null)] <(null)> - 预处理数据加载完成!
+2019-07-06 15:34:25,895 [12] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-07-06 15:34:25,911 [12] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-07-06 15:34:35,717 [12] INFO  RedisLogInfo [(null)] <(null)> - 正在加载预处理数据...
+2019-07-06 15:34:37,352 [12] INFO  RedisLogInfo [(null)] <(null)> - 预处理数据加载完成!

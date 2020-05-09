@@ -1,0 +1,868 @@
+2019-07-05 18:14:36,879 [6] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:22:50,800 [8] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:22:50,805 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 57
+   在 Sus.Net.Client.SusTCPClient.client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 414
+2019-07-05 18:22:54,808 [8] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:22:54,808 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 57
+   在 Sus.Net.Client.SusTCPClient.client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 414
+2019-07-05 18:22:58,814 [8] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:22:58,814 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 57
+   在 Sus.Net.Client.SusTCPClient.client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 414
+2019-07-05 18:36:09,864 [5] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:40:04,662 [6] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:40:14,579 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 57
+   在 Sus.Net.Client.SusTCPClient.client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 414
+2019-07-05 18:41:39,052 [4] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:41:53,754 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 57
+   在 Sus.Net.Client.SusTCPClient.client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 414
+2019-07-05 18:41:57,776 [4] ERROR TcpErrorInfo [(null)] <(null)> - 服务器:127.0.0.1:9998 发生异常:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9998.
+2019-07-05 18:42:19,729 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 57
+   在 Sus.Net.Client.SusTCPClient.client_ServerExceptionOccurred(Object sender, TcpServerExceptionOccurredEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 414
+2019-07-05 18:45:09,828 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 67
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 18:53:07,093 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:04:03,641 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:06:58,897 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:09:40,241 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:09:43,533 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:11:42,754 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:11:42,765 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:11:42,774 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:11:42,775 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:11:42,776 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:11:42,777 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:11:42,777 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:12:25,037 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:14:27,677 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:28:38,547 [18] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:28:47,428 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:28:47,604 [18] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:28:47,618 [18] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:28:47,632 [18] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:28:47,689 [18] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:28:47,830 [18] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:28:47,966 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 19:28:47,983 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 19:28:48,098 [7] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1008
+2019-07-05 19:28:48,112 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1026
+   在 Sus.Net.Server.SusTCPServer1.server_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 788
+2019-07-05 19:34:23,353 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:34:29,429 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:34:29,637 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:34:29,777 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:34:29,918 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:34:30,020 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:34:30,140 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:34:30,313 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 19:34:30,330 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 19:42:13,413 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 19:42:13,458 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:42:13,477 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:42:13,491 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:42:13,503 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:42:13,516 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:42:13,527 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 19:42:13,641 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 19:42:13,656 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 20:10:40,715 [11] ERROR TcpErrorInfo [(null)] <(null)> - 【端口开启失败】
+System.Net.Sockets.SocketException (0x80004005): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 Sus.Net.Server.Sockets.AsyncTcpServer.Start(Int32 backlog) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\Sockets\AsyncTcpServer.cs:行号 124
+   在 Sus.Net.Server.Sockets.AsyncTcpServer.Start() 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\Sockets\AsyncTcpServer.cs:行号 97
+   在 Sus.Net.Server.SusTCPServer1.Start() 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 255
+   在 Suspe.CAN.Action.CAN.CANTcpServer.ConnectCAN(ListBoxControl _lbMessage, Boolean _isServiceStart) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 96
+2019-07-05 20:10:40,776 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:10:52,193 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 Sus.Net.Client.Sockets.AsyncTcpClient.HandleDatagramReceived(IAsyncResult ar) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\Sockets\AsyncTcpClient.cs:行号 339
+2019-07-05 20:10:52,209 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerDisconnected(Object sender, TcpServerDisconnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 63
+   在 Sus.Net.Client.SusTCPClient.client_ServerDisconnected(Object sender, TcpServerDisconnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 397
+2019-07-05 20:11:19,278 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:11:19,372 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:11:19,391 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:11:19,418 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:11:19,430 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:11:19,442 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:11:19,453 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:11:19,541 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 20:11:19,557 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 20:12:20,651 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:12:20,819 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:12:21,012 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:12:21,151 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:12:21,291 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:12:21,329 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:12:21,448 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:12:21,608 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 20:12:21,626 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 20:13:37,267 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:13:37,279 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:13:37,287 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:13:37,289 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:13:37,290 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:13:37,291 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:13:37,299 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:13:37,330 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 20:13:37,331 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 20:16:41,212 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:16:41,394 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:16:41,609 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:16:41,712 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:16:41,831 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:16:41,872 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:16:41,990 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:16:42,135 [20] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 20:16:42,164 [20] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 20:28:35,850 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:28:36,040 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:28:36,158 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:28:36,172 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:28:36,293 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:28:36,330 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:28:36,343 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:28:36,440 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 20:28:36,472 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 20:36:04,414 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:37:27,919 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:37:28,141 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:37:28,260 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:37:28,315 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:37:28,329 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:37:28,486 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:37:28,593 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 20:37:28,609 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 20:39:48,406 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:40:45,357 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:41:30,299 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:43:53,480 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 20:44:01,418 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 20:44:13,398 [10] ERROR TcpErrorInfo [(null)] <(null)> - SuspeSys.Service.Impl.Products.PExcption.StatingNoLoginEmployeeException: 【错误】主轨:【1】站点:【4】没有员工登录!,不能出站
+2019-07-05 20:44:13,398 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:30,366 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 21:44:30,896 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:31,266 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:31,431 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:31,576 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:31,825 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:32,021 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:32,559 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:32,574 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:32,764 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:32,989 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:33,213 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:33,293 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:33,306 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:33,494 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:33,731 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:33,958 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:33,988 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:34,000 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:34,190 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:34,417 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:34,621 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:34,698 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:34,710 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:34,879 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:35,104 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:35,328 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:35,414 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:35,427 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:35,614 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:35,840 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:36,064 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:36,155 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:36,170 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:36,353 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:36,571 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:36,788 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:36,885 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:36,898 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:37,083 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:37,297 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:37,500 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:37,574 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:37,594 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:37,751 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:37,955 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:38,157 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:38,259 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:38,272 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:38,453 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:38,672 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:38,892 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:38,954 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:38,969 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:39,149 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:39,309 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:39,534 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:39,599 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:39,611 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:39,792 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:39,994 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:40,212 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:40,277 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:40,291 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:40,469 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:40,696 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:40,893 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:40,956 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:40,968 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:41,155 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:41,382 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:41,583 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:41,663 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:41,676 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:41,862 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:42,086 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:42,313 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:42,403 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:42,416 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:42,602 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:42,827 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:43,052 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:43,148 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:43,160 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:43,347 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:43,573 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:43,796 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:43,881 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:43,894 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:44,072 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:44,277 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:44,392 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:44,408 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:44,422 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:44,607 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:44,836 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:45,041 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:45,121 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:45,133 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:45,329 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:45,553 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:45,759 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:45,837 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:45,850 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:46,041 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:46,268 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:46,494 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:46,574 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:46,590 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:46,775 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:47,009 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:47,235 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:47,313 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:47,327 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:47,513 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:47,741 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:47,965 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:48,058 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:48,071 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:48,258 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:48,484 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:48,710 [17] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:48,787 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 21:44:48,799 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 21:44:48,983 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:49,206 [19] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:44:49,390 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:46:09,689 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 68
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 21:46:11,366 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:46:11,573 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:46:11,717 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:46:11,731 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:46:11,746 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 21:46:11,762 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 73
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:06:06,190 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 70
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 23:06:06,451 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:06:06,685 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:06:06,804 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:06:06,868 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:06:06,904 [8] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:06:06,919 [9] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:06:07,121 [12] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 23:11:36,821 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 70
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 23:11:37,028 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:11:37,308 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:11:37,332 [10] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 23:11:37,450 [10] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 23:11:37,482 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:11:37,583 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:11:37,597 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:11:37,612 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:11:38,827 [10] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 23:20:20,255 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 70
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 23:20:20,406 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:20:20,633 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:20:20,776 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:20:20,899 [10] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 23:20:20,980 [10] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 23:20:21,015 [7] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:20:21,134 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:20:21,168 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:20:21,538 [10] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 23:22:40,356 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 70
+   在 Sus.Net.Client.SusTCPClient.client_ServerConnected(Object sender, TcpServerConnectedEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 380
+2019-07-05 23:22:40,419 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:22:40,681 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:22:40,909 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:22:40,935 [12] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!
+2019-07-05 23:22:41,032 [12] ERROR TcpErrorInfo [(null)] <(null)> - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 Sus.Net.Server.ClientManager.ClientUserInfoDesc(String clientKey) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\ClientManager.cs:行号 111
+   在 Sus.Net.Server.SusTCPServer1.SendMessageByByte(Byte[] datas, ClientUserInfo clientInfo, TcpClient tcpClient) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Server\SusTCPServer1.cs:行号 540
+2019-07-05 23:22:41,149 [6] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:22:41,388 [4] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:22:41,556 [5] ERROR TcpErrorInfo [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Test.TestBase.Server_MessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Test\TestBase.cs:行号 75
+   在 Sus.Net.Client.SusTCPClient.client_DatagramReceived(Object sender, TcpDatagramReceivedEventArgs`1 e) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\SusTCPClient.cs:行号 442
+2019-07-05 23:22:41,887 [12] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: clientUserInfo为空!

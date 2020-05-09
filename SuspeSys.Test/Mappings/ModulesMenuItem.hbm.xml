@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ModulesMenuItem" table="ModulesMenuItem" lazy="true" >
+    <id name="Id" column="Id" />
+    <property name="MenuName">
+      <column name="MenuName" sql-type="varchar" not-null="true" />
+    </property>
+    <property name="MenuValue">
+      <column name="MenuValue" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="MenuKey">
+      <column name="MenuKey" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Description">
+      <column name="Description" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="Insert_Date_Time" sql-type="datetime" not-null="true" />
+    </property>
+    <property name="InsertUser">
+      <column name="Insert_User" sql-type="char" not-null="true" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="Update_Date_Time" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="Update_User" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

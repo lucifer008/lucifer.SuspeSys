@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="City" table="City" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="Province">
+      <column name="PROVINCE_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="CityCode">
+      <column name="CityCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CityName">
+      <column name="CityName" sql-type="varchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

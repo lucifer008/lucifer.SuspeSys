@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SewingMachineLoginLog" table="SewingMachineLoginLog" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="InsertDateTime1">
+      <column name="InsertDateTime1" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Workshop">
+      <column name="workshop" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="GroupNo">
+      <column name="GroupNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="MainTrackNumber">
+      <column name="MainTrackNumber" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StatingNo">
+      <column name="StatingNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="SewingMachineNo">
+      <column name="sewingMachineNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CardNo">
+      <column name="CardNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ReadCardDateTime">
+      <column name="readCardDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="LoginStatus">
+      <column name="LoginStatus" sql-type="smallint" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SystemModuleParameter" table="SystemModuleParameter" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="SystemModuleParameterId">
+      <column name="SystemModuleParameterId" sql-type="char" not-null="false" />
+    </property>
+    <property name="SysNo">
+      <column name="SysNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ModuleType">
+      <column name="ModuleType" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="ModuleText">
+      <column name="ModuleText" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="SecondModuleType">
+      <column name="SecondModuleType" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="SecondModuleText">
+      <column name="SecondModuleText" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ParamterKey">
+      <column name="ParamterKey" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ParamterValue">
+      <column name="ParamterValue" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="ParamterControlType">
+      <column name="ParamterControlType" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ParamterControlTitle">
+      <column name="ParamterControlTitle" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ParamterControlDescribe">
+      <column name="ParamterControlDescribe" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="IsEnabled">
+      <column name="IsEnabled" sql-type="bit" not-null="true" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Memo2">
+      <column name="Memo2" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Memo3">
+      <column name="Memo3" sql-type="varchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

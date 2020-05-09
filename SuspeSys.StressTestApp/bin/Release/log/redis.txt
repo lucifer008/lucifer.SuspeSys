@@ -1,0 +1,4 @@
+2020-01-07 18:08:49,507 [1] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2020-01-07 18:08:49,582 [1] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2020-01-07 18:09:03,854 [1] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2020-01-07 18:09:03,873 [1] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!

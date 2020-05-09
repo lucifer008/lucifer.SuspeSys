@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProcessStationRelation" table="Process_Station_Relation" lazy="true" >
+    <id name="Id" column="Id" />
+    <many-to-one name="Stating">
+      <column name="STATING_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="ProcessCraftActionId">
+      <column name="PROCESS_CRAFT_ACTION_Id" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuspeSys.Client.Sqlite", "SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite.csproj", "{C8A3FC99-DDC8-4AF5-BAE9-9001A0BFE848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperExtensions", "DapperExtensions\DapperExtensions.csproj", "{4C1A2C6C-A469-4C87-98D1-F1D517FA1ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuspeSys.Client.SqliteTest", "SuspeSys.Client.SqliteTest\SuspeSys.Client.SqliteTest.csproj", "{BCFB1597-0102-4629-AA7C-981133AC9B8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8A3FC99-DDC8-4AF5-BAE9-9001A0BFE848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A3FC99-DDC8-4AF5-BAE9-9001A0BFE848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A3FC99-DDC8-4AF5-BAE9-9001A0BFE848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A3FC99-DDC8-4AF5-BAE9-9001A0BFE848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1A2C6C-A469-4C87-98D1-F1D517FA1ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1A2C6C-A469-4C87-98D1-F1D517FA1ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1A2C6C-A469-4C87-98D1-F1D517FA1ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1A2C6C-A469-4C87-98D1-F1D517FA1ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFB1597-0102-4629-AA7C-981133AC9B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFB1597-0102-4629-AA7C-981133AC9B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFB1597-0102-4629-AA7C-981133AC9B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFB1597-0102-4629-AA7C-981133AC9B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

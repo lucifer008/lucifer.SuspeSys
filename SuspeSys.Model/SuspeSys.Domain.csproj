@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B965CBB5-41A5-4BBA-917F-4AF482A56221}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuspeSys.Domain</RootNamespace>
+    <AssemblyName>SuspeSys.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ApplicationProfile.cs" />
+    <Compile Include="Base\Area.cs" />
+    <Compile Include="Base\BasicProcessFlow.cs" />
+    <Compile Include="Base\BridgeSet.cs" />
+    <Compile Include="Base\CardInfo.cs" />
+    <Compile Include="Base\CardLoginInfo.cs" />
+    <Compile Include="Base\ChangeCardResume.cs" />
+    <Compile Include="Base\City.cs" />
+    <Compile Include="Base\ClassesEmployee.cs" />
+    <Compile Include="Base\ClientMachines.cs" />
+    <Compile Include="Base\ClothingVehicle.cs" />
+    <Compile Include="Base\ClothingVehicleMaintenanceLogs.cs" />
+    <Compile Include="Base\ClothingVehicleType.cs" />
+    <Compile Include="Base\Common\MetaData.cs" />
+    <Compile Include="Base\ClassesInfo.cs" />
+    <Compile Include="Base\Company.cs" />
+    <Compile Include="Base\Customer.cs" />
+    <Compile Include="Base\CustomerPurchaseOrder.cs" />
+    <Compile Include="Base\CustomerPurchaseOrderColorItem.cs" />
+    <Compile Include="Base\CustomerPurchaseOrderColorSizeItem.cs" />
+    <Compile Include="Base\DefectCodeTable.cs" />
+    <Compile Include="Base\Department.cs" />
+    <Compile Include="Base\Employee.cs" />
+    <Compile Include="Base\EmployeeCardRelation.cs" />
+    <Compile Include="Base\EmployeeFlowProduction.cs" />
+    <Compile Include="Base\EmployeeGrade.cs" />
+    <Compile Include="Base\EmployeePositions.cs" />
+    <Compile Include="Base\EmployeeRoleRelation.cs" />
+    <Compile Include="Base\EmployeeScheduling.cs" />
+    <Compile Include="Base\Factory.cs" />
+    <Compile Include="Base\FaultCodeTable.cs" />
+    <Compile Include="Base\FlowAction.cs" />
+    <Compile Include="Base\FlowStatingColor.cs" />
+    <Compile Include="Base\FlowStatingResume.cs" />
+    <Compile Include="Base\FlowStatingSize.cs" />
+    <Compile Include="Base\HangerProductFlowChart.cs" />
+    <Compile Include="Base\HangerProductItem.cs" />
+    <Compile Include="Base\HangerResume.cs" />
+    <Compile Include="Base\HangerReworkRecord.cs" />
+    <Compile Include="Base\HangerReworkRequest.cs" />
+    <Compile Include="Base\HangerReworkRequestItem.cs" />
+    <Compile Include="Base\HangerReworkRequestQueue.cs" />
+    <Compile Include="Base\HangerReworkRequestQueueItem.cs" />
+    <Compile Include="Base\HangerStatingAllocationItem.cs" />
+    <Compile Include="Base\IdGenerator.cs" />
+    <Compile Include="Base\KanbanInfo.cs" />
+    <Compile Include="Base\LackMaterialsTable.cs" />
+    <Compile Include="Base\LedHoursPlanTable.cs" />
+    <Compile Include="Base\LedHoursPlanTableItem.cs" />
+    <Compile Include="Base\LedScreenConfig.cs" />
+    <Compile Include="Base\LedScreenPage.cs" />
+    <Compile Include="Base\MainTrack.cs" />
+    <Compile Include="Base\MainTrackOperateRecord.cs" />
+    <Compile Include="Base\MechanicEmployees.cs" />
+    <Compile Include="Base\MulLanguage.cs" />
+    <Compile Include="Base\Pipelining.cs" />
+    <Compile Include="Base\PipeliningSiteGroupRelation.cs" />
+    <Compile Include="Base\ProcessFlowChartGrop.cs" />
+    <Compile Include="Base\ProcessFlowSectionItem.cs" />
+    <Compile Include="Base\ProcessFlowStatingItem.cs" />
+    <Compile Include="Base\ProcessOrderPurchaseOrderItem.cs" />
+    <Compile Include="Base\ProdType.cs" />
+    <Compile Include="Base\Products.cs" />
+    <Compile Include="Base\ProductsHangPieceResume.cs" />
+    <Compile Include="Base\Province.cs" />
+    <Compile Include="Base\SewingMachineLoginLog.cs" />
+    <Compile Include="Base\StatingDirection.cs" />
+    <Compile Include="Base\StatingHangerProductItem.cs" />
+    <Compile Include="Base\StatingRoles.cs" />
+    <Compile Include="Base\StyleProcessFlowSectionItem.cs" />
+    <Compile Include="Base\SuccessHangerProductFlowChart.cs" />
+    <Compile Include="Base\SuccessHangerStatingAllocationItem.cs" />
+    <Compile Include="Base\SuccessStatingHangerProductItem.cs" />
+    <Compile Include="Base\SucessEmployeeFlowProduction.cs" />
+    <Compile Include="Base\SucessHangerProductItem.cs" />
+    <Compile Include="Base\SucessHangerReworkRecord.cs" />
+    <Compile Include="Base\SucessProcessOrderHanger.cs" />
+    <Compile Include="Base\SucessProducts.cs" />
+    <Compile Include="Base\SusLanguage.cs" />
+    <Compile Include="Base\SystemModuleParameter.cs" />
+    <Compile Include="Base\SystemModuleParameterDomain.cs" />
+    <Compile Include="Base\SystemModuleParameterValue.cs" />
+    <Compile Include="Base\TestSiteTable.cs" />
+    <Compile Include="Base\UserClientMachines.cs" />
+    <Compile Include="Base\UserClientMachinesPipelinings.cs" />
+    <Compile Include="Base\UserLoginInfo.cs" />
+    <Compile Include="Base\UserOperateLogDetail.cs" />
+    <Compile Include="Base\UserOperateLogs.cs" />
+    <Compile Include="Base\UserRoles.cs" />
+    <Compile Include="Base\Users.cs" />
+    <Compile Include="Base\WaitProcessOrderHanger.cs" />
+    <Compile Include="Base\Workshop.cs" />
+    <Compile Include="Business\SchedulingRule.cs" />
+    <Compile Include="Common\CurrentUser.cs" />
+    <Compile Include="Common\CustomSysInfo.cs" />
+    <Compile Include="Common\SusLanguageCons.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="Cus\CurrentHangerOutSiteModel.cs" />
+    <Compile Include="Cus\CurrentHangerProductingFlowModel.cs" />
+    <Compile Include="Cus\HangerHangingRequestModel.cs" />
+    <Compile Include="Cus\HangerNonStandardStatingOrCacheModel.cs" />
+    <Compile Include="Cus\Pagination.cs" />
+    <Compile Include="Cus\StatingInHangerModel.cs" />
+    <Compile Include="Cus\StatingModel.cs" />
+    <Compile Include="Cus\StyleProcessFlowSectionItemExtModel.cs" />
+    <Compile Include="Dto\ClassesEmployeeDto.cs" />
+    <Compile Include="Dto\StatingDto.cs" />
+    <Compile Include="Ext\AreaModel.cs" />
+    <Compile Include="Ext\BasicProcessFlowModel.cs" />
+    <Compile Include="Ext\CANModel\Allocation.cs" />
+    <Compile Include="Ext\CANModel\BridgeCacheModel.cs" />
+    <Compile Include="Ext\CANModel\CProcessFlowChartModel.cs" />
+    <Compile Include="Ext\CANModel\DifferStatingSameProcessFlow.cs" />
+    <Compile Include="Ext\CANModel\EmployeeLoginInfo.cs" />
+    <Compile Include="Ext\CANModel\ProductsProcessOrderModel.cs" />
+    <Compile Include="Ext\CANModel\ReworkModel.cs" />
+    <Compile Include="Ext\CardInfoModel.cs" />
+    <Compile Include="Ext\CityModel.cs" />
+    <Compile Include="Ext\ClassesEmployeeModel.cs" />
+    <Compile Include="Ext\ClassesInfoModel.cs" />
+    <Compile Include="Ext\ClientMachinesModel.cs" />
+    <Compile Include="Ext\ClothingVehicleMaintenanceLogsModel.cs" />
+    <Compile Include="Ext\ClothingVehicleModel.cs" />
+    <Compile Include="Ext\ClothingVehicleTypeModel.cs" />
+    <Compile Include="Ext\CompanyModel.cs" />
+    <Compile Include="Ext\CopyProcessOrderModel.cs" />
+    <Compile Include="Ext\CustomerModel.cs" />
+    <Compile Include="Ext\CustomerPurchaseOrderColorItemModel.cs" />
+    <Compile Include="Ext\CustomerPurchaseOrderColorSizeItemModel.cs" />
+    <Compile Include="Ext\CustomerPurchaseOrderModel.cs" />
+    <Compile Include="Ext\DefectCodeTableModel.cs" />
+    <Compile Include="Ext\DepartmentModel.cs" />
+    <Compile Include="Ext\EmployeeCardRelationModel.cs" />
+    <Compile Include="Ext\EmployeeGradeModel.cs" />
+    <Compile Include="Ext\EmployeeLoginInfoModel.cs" />
+    <Compile Include="Ext\EmployeeModel.cs" />
+    <Compile Include="Ext\EmployeePositionsModel.cs" />
+    <Compile Include="Ext\EmployeeRoleRelationModel.cs" />
+    <Compile Include="Ext\EmployeeSchedulingModel.cs" />
+    <Compile Include="Ext\F2AssignModel.cs" />
+    <Compile Include="Ext\FaultCodeTableModel.cs" />
+    <Compile Include="Ext\FlowActionModel.cs" />
+    <Compile Include="Ext\FlowProductTag.cs" />
+    <Compile Include="Ext\FlowStatingColorModel.cs" />
+    <Compile Include="Ext\FlowStatingModel.cs" />
+    <Compile Include="Ext\FlowStatingResumeModel.cs" />
+    <Compile Include="Ext\FlowStatingSizeModel.cs" />
+    <Compile Include="Ext\HangerModel.cs" />
+    <Compile Include="Ext\HangerProductFlowChartModel.cs" />
+    <Compile Include="Ext\HangerProductItemModel.cs" />
+    <Compile Include="Ext\HangerStatingAllocationItemModel.cs" />
+    <Compile Include="Ext\HolidayInfoModel.cs" />
+    <Compile Include="Ext\IdGeneratorModel.cs" />
+    <Compile Include="Ext\LackMaterialsTableModel.cs" />
+    <Compile Include="Ext\MechanicEmployeesModel.cs" />
+    <Compile Include="Ext\ModulesModel.cs" />
+    <Compile Include="Ext\OnlineOrInStationItemModel.cs" />
+    <Compile Include="Ext\OrderProductItemModel.cs" />
+    <Compile Include="Ext\OrganizationsModel.cs" />
+    <Compile Include="Ext\PipeliningModel.cs" />
+    <Compile Include="Ext\PoColorModel.cs" />
+    <Compile Include="Ext\PositionModel.cs" />
+    <Compile Include="Ext\ProcessCraftActionModel.cs" />
+    <Compile Include="Cus\ProcessFlowChartFlowModel.cs" />
+    <Compile Include="Ext\ProcessFlowChartFlowRelationModel.cs" />
+    <Compile Include="Ext\ProcessFlowChartGropModel.cs" />
+    <Compile Include="Ext\ProcessFlowChartModel.cs" />
+    <Compile Include="Ext\ProcessFlowModel.cs" />
+    <Compile Include="Ext\ProcessFlowSectionItemModel.cs" />
+    <Compile Include="Ext\ProcessFlowSectionModel.cs" />
+    <Compile Include="Ext\ProcessFlowStatingItemModel.cs" />
+    <Compile Include="Ext\ProcessFlowVersionModel.cs" />
+    <Compile Include="Ext\ProcessOrderColorItemModel.cs" />
+    <Compile Include="Ext\ProcessOrderColorSizeItemModel.cs" />
+    <Compile Include="Cus\ProcessOrderExtModel.cs" />
+    <Compile Include="Ext\ProcessOrderItemModel.cs" />
+    <Compile Include="Ext\ProcessOrderModel.cs" />
+    <Compile Include="Base\FlowStating.cs" />
+    <Compile Include="Base\Hanger.cs" />
+    <Compile Include="Base\HolidayInfo.cs" />
+    <Compile Include="Base\Modules.cs" />
+    <Compile Include="Base\OrderProductItem.cs" />
+    <Compile Include="Base\Organizations.cs" />
+    <Compile Include="Base\PoColor.cs" />
+    <Compile Include="Base\Position.cs" />
+    <Compile Include="Base\ProcessCraftAction.cs" />
+    <Compile Include="Base\ProcessFlow.cs" />
+    <Compile Include="Base\ProcessFlowChart.cs" />
+    <Compile Include="Base\ProcessFlowChartFlowRelation.cs" />
+    <Compile Include="Base\ProcessFlowSection.cs" />
+    <Compile Include="Base\ProcessFlowVersion.cs" />
+    <Compile Include="Base\ProcessOrder.cs" />
+    <Compile Include="Base\ProcessOrderColorItem.cs" />
+    <Compile Include="Base\ProcessOrderColorSizeItem.cs" />
+    <Compile Include="Base\ProcessOrderItem.cs" />
+    <Compile Include="Base\ProductGroup.cs" />
+    <Compile Include="Base\ProductOrder.cs" />
+    <Compile Include="Ext\ProcessOrderPurchaseOrderItemModel.cs" />
+    <Compile Include="Ext\ProdTypeModel.cs" />
+    <Compile Include="Ext\ProductGroupModel.cs" />
+    <Compile Include="Ext\ProductOrderModel.cs" />
+    <Compile Include="Ext\ProductRealtimeInfoModel.cs" />
+    <Compile Include="Ext\ProductsFlowModel.cs" />
+    <Compile Include="Ext\ProductsModel.cs" />
+    <Compile Include="Ext\ProvinceModel.cs" />
+    <Compile Include="Ext\PSizeModel.cs" />
+    <Compile Include="Ext\ReportModel\CoatHangerIndexModel.cs" />
+    <Compile Include="Ext\ReportModel\DefectAnalysisReportModel.cs" />
+    <Compile Include="Ext\ReportModel\EmployeeYieldReportModel.cs" />
+    <Compile Include="Ext\ReportModel\FlowBalanceTableReportModel.cs" />
+    <Compile Include="Ext\ReportModel\GroupCompetitionReportModel.cs" />
+    <Compile Include="Ext\ReportModel\ProductItemReportModel.cs" />
+    <Compile Include="Ext\ReportModel\ProductRealtimeInfoModel.cs" />
+    <Compile Include="Ext\ReportModel\ReworkCollAndDefectAnalysisReportModel.cs" />
+    <Compile Include="Ext\ReportModel\ReworkDetailReportModel.cs" />
+    <Compile Include="Ext\ReportModel\WorkingHoursAnalysisReportModel.cs" />
+    <Compile Include="Ext\ReportModel\YieldCollectModel.cs" />
+    <Compile Include="Ext\RolesModel.cs" />
+    <Compile Include="Ext\RolesModulesModel.cs" />
+    <Compile Include="Ext\SewingMachineLoginLogModel.cs" />
+    <Compile Include="Ext\SiteGroupModel.cs" />
+    <Compile Include="Ext\StatingDirectionModel.cs" />
+    <Compile Include="Ext\StatingHangerProductItemModel.cs" />
+    <Compile Include="Ext\StatingModel.cs" />
+    <Compile Include="Ext\StatingMsg.cs" />
+    <Compile Include="Ext\StatingRolesModel.cs" />
+    <Compile Include="Ext\StyleModel.cs" />
+    <Compile Include="Ext\StyleProcessFlowItemModel.cs" />
+    <Compile Include="Ext\StyleProcessFlowSectionItemModel.cs" />
+    <Compile Include="Ext\StyleProcessFlowStoreModel.cs" />
+    <Compile Include="Ext\SuccessStatingHangerProductItemModel.cs" />
+    <Compile Include="Ext\SucessHangerProductItemModel.cs" />
+    <Compile Include="Ext\SucessHangerReworkRecordModel.cs" />
+    <Compile Include="Ext\SucessProcessOrderHangerModel.cs" />
+    <Compile Include="Ext\SucessProductsModel.cs" />
+    <Compile Include="Ext\SusLanguageModel.cs" />
+    <Compile Include="Ext\SystemLogs.cs" />
+    <Compile Include="Ext\SystemModuleParameterDomainModel.cs" />
+    <Compile Include="Ext\SystemModuleParameterModel.cs" />
+    <Compile Include="Ext\SystemModuleParameterValueModel.cs" />
+    <Compile Include="Ext\TestSiteTableModel.cs" />
+    <Compile Include="Ext\UserClientMachinesModel.cs" />
+    <Compile Include="Ext\UserClientMachinesPipeliningsModel.cs" />
+    <Compile Include="Ext\UserLoginInfoModel.cs" />
+    <Compile Include="Ext\UserOperateLogDetailModel.cs" />
+    <Compile Include="Ext\UserOperateLogsModel.cs" />
+    <Compile Include="Ext\UserRolesCache.cs" />
+    <Compile Include="Ext\UserRolesModel.cs" />
+    <Compile Include="Ext\UsersModel.cs" />
+    <Compile Include="Ext\WaitProcessOrderHangerModel.cs" />
+    <Compile Include="Ext\WorkshopModel.cs" />
+    <Compile Include="Ext\WorkTypeModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Base\PSize.cs" />
+    <Compile Include="Base\Roles.cs" />
+    <Compile Include="Base\RolesModules.cs" />
+    <Compile Include="Base\SiteGroup.cs" />
+    <Compile Include="Base\Stating.cs" />
+    <Compile Include="Base\Style.cs" />
+    <Compile Include="Base\StyleProcessFlowItem.cs" />
+    <Compile Include="Base\StyleProcessFlowStore.cs" />
+    <Compile Include="Base\WorkType.cs" />
+    <Compile Include="SusAttr\ColumnAttribute.cs" />
+    <Compile Include="SusAttr\SusAttribute.cs" />
+    <Compile Include="SusEnum\ApplicationProfileEnum.cs" />
+    <Compile Include="SusEnum\BaseSusEnum.cs" />
+    <Compile Include="SusEnum\BridgeType.cs" />
+    <Compile Include="SusEnum\CardRequestType.cs" />
+    <Compile Include="SusEnum\CardType.cs" />
+    <Compile Include="SusEnum\Constant.cs" />
+    <Compile Include="SusEnum\EnumHelper.cs" />
+    <Compile Include="SusEnum\HangerResumeStaus.cs" />
+    <Compile Include="SusEnum\HangerProductFlowChartStaus.cs" />
+    <Compile Include="SusEnum\HangerStatingAllocationItemStatus.cs" />
+    <Compile Include="SusEnum\KanbanInfoStatus.cs" />
+    <Compile Include="SusEnum\MainTrackOperType.cs" />
+    <Compile Include="SusEnum\ModulesType.cs" />
+    <Compile Include="SusEnum\SecondLevelModuleType.cs" />
+    <Compile Include="SusEnum\SusModuleType.cs" />
+    <Compile Include="SusEnum\ProcessOrderItemType.cs" />
+    <Compile Include="SusEnum\ProcessOrderStatus.cs" />
+    <Compile Include="SusEnum\ProcessOrderType.cs" />
+    <Compile Include="SusEnum\ProductsStatusType.cs" />
+    <Compile Include="SusEnum\StatingType.cs" />
+    <Compile Include="SusEnum\SystemLogEnum.cs" />
+    <Compile Include="SusEnum\SystemParameter.cs" />
+    <Compile Include="SusEnum\Weeks.cs" />
+    <Compile Include="SusEvent\SusEventArgs.cs" />
+    <Compile Include="SusPartial\BasicProcessFlowModel.cs" />
+    <Compile Include="SusPartial\BridgeSet.cs" />
+    <Compile Include="SusPartial\HangerProductFlowChart.cs" />
+    <Compile Include="SusPartial\HangerStatingAllocationItem.cs" />
+    <Compile Include="SusPartial\LedHoursPlanTableItem.cs" />
+    <Compile Include="SusPartial\LedScreenConfig.cs" />
+    <Compile Include="SusPartial\LedScreenPage.cs" />
+    <Compile Include="SusPartial\ProcessFlow.cs" />
+    <Compile Include="SusPartial\ProcessFlowChart.cs" />
+    <Compile Include="SusPartial\ProcessFlowChartFlowRelation.cs" />
+    <Compile Include="SusPartial\Stating.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

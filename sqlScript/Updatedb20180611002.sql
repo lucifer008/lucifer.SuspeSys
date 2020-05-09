@@ -1,0 +1,1 @@
+ALTER TABLE ApplicationProfile ALTER COLUMN ParaValue varchar(max) NULL 

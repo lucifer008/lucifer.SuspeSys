@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Stating" table="Stating" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="SusLanguage">
+      <column name="SUSLANGUAGE_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="StatingRoles">
+      <column name="STATINGROLES_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="SiteGroup">
+      <column name="SITEGROUP_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="StatingDirection">
+      <column name="STATINGDIRECTION_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="StatingName">
+      <column name="StatingName" sql-type="char" not-null="false" />
+    </property>
+    <property name="StatingNo">
+      <column name="StatingNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="Language">
+      <column name="Language" sql-type="char" not-null="false" />
+    </property>
+    <property name="MainTrackNumber">
+      <column name="MainTrackNumber" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="Capacity">
+      <column name="Capacity" sql-type="int" not-null="false" />
+    </property>
+    <property name="IsReceivingHanger">
+      <column name="IsReceivingHanger" sql-type="bit" not-null="false" />
+    </property>
+    <property name="ColorValue">
+      <column name="ColorValue" sql-type="char" not-null="false" />
+    </property>
+    <property name="IsLoadMonitor">
+      <column name="IsLoadMonitor" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsChainHoist">
+      <column name="IsChainHoist" sql-type="bit" not-null="false" />
+    </property>
+    <property name="IsPromoteTripCachingFull">
+      <column name="IsPromoteTripCachingFull" sql-type="bit" not-null="false" />
+    </property>
+    <property name="SiteBarCode">
+      <column name="SiteBarCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="IsEnabled">
+      <column name="IsEnabled" sql-type="bit" not-null="false" />
+    </property>
+    <property name="Direction">
+      <column name="Direction" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="MainboardNumber">
+      <column name="MainboardNumber" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="SerialNumber">
+      <column name="SerialNumber" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

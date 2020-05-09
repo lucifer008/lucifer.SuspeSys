@@ -1,0 +1,2 @@
+严重性	代码	说明	项目	文件	行	禁止显示状态
+警告		未能解析此引用。未能找到程序集“DevExpress.XtraScheduler.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a”。请检查磁盘上是否存在该程序集。 如果您的代码需要此引用，则可能出现编译错误。	SuspeSys.Client			

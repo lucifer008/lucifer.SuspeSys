@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SiteGroup" table="SiteGroup" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="Workshop">
+      <column name="WORKSHOP_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="GroupNo">
+      <column name="GroupNO" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="GroupName">
+      <column name="GroupName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="FactoryCode">
+      <column name="FactoryCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="WorkshopCode">
+      <column name="WorkshopCode" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="MainTrackNumber">
+      <column name="MainTrackNumber" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

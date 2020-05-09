@@ -1,0 +1,147 @@
+2020-01-09 15:02:00,392 [4] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1001
+2020-01-09 15:02:36,711 [14] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1001
+2020-01-09 15:03:01,843 [15] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:4001
+2020-01-09 15:03:17,215 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【6000 】 衣架未注册!
+2020-01-09 15:03:17,215 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【2】衣架【6000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【6000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:03:27,345 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【5000 】 衣架未注册!
+2020-01-09 15:03:27,345 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【2】衣架【5000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【5000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:03:28,965 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【衣架进站异常】 衣架:4001 主轨:1 站点:2  衣架进站异常!
+System.ApplicationException: 【衣架进站异常】 衣架:4001 主轨:1 站点:2  衣架进站异常!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.IsHangerRepeatInStating(Int32 mainTrackNumber, String tenStatingNo, String tenHangerNo, IList`1 fcList) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1004
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1078
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:03:29,046 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【3000 】 衣架未注册!
+2020-01-09 15:03:29,047 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【2】衣架【3000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【3000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:03:29,267 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【2000 】 衣架未注册!
+2020-01-09 15:03:29,267 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【2】衣架【2000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【2000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:03:31,626 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【6000 】 衣架未注册!
+2020-01-09 15:03:31,626 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【2】衣架【6000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【6000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:03:32,136 [5] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:3000
+2020-01-09 15:03:32,812 [16] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:4001
+2020-01-09 15:03:36,715 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【5000 】 衣架未注册!
+2020-01-09 15:03:36,716 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【2】衣架【5000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【5000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:03:40,470 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【3000 】 衣架未注册!
+2020-01-09 15:03:40,486 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【2】衣架【3000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【3000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:03:41,468 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【2000 】 衣架未注册!
+2020-01-09 15:03:41,468 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【2】衣架【2000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【2】衣架【2000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:03:57,948 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【6000 】 衣架未注册!
+2020-01-09 15:03:57,948 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【3】衣架【6000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【6000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:03:58,711 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【5000 】 衣架未注册!
+2020-01-09 15:03:58,711 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【3】衣架【5000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【5000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:03:58,955 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【衣架进站异常】 衣架:4001 主轨:1 站点:3  站点未分配进站!
+System.ApplicationException: 【衣架进站异常】 衣架:4001 主轨:1 站点:3  站点未分配进站!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.IsHangerRepeatInStating(Int32 mainTrackNumber, String tenStatingNo, String tenHangerNo, IList`1 fcList) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1035
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1078
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:01,215 [16] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:3000
+2020-01-09 15:04:02,408 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:6000
+2020-01-09 15:04:04,304 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【衣架进站异常】 衣架:3000 主轨:1 站点:3  站点未分配进站!
+System.ApplicationException: 【衣架进站异常】 衣架:3000 主轨:1 站点:3  站点未分配进站!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.IsHangerRepeatInStating(Int32 mainTrackNumber, String tenStatingNo, String tenHangerNo, IList`1 fcList) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1035
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1078
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:05,534 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【6000 】 衣架未注册!
+2020-01-09 15:04:05,534 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【3】衣架【6000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【6000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:04:06,937 [16] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【5000 】 衣架未注册!
+2020-01-09 15:04:06,937 [16] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【3】衣架【5000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【5000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:04:06,952 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【2000 】 衣架未注册!
+2020-01-09 15:04:06,952 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【3】衣架【2000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【2000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:07,750 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【衣架比较异常】 主轨:1 站点:3 衣架:4001
+2020-01-09 15:04:11,698 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【衣架比较异常】 主轨:1 站点:3 衣架:3000
+2020-01-09 15:04:14,718 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【2000 】 衣架未注册!
+2020-01-09 15:04:14,718 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【3】衣架【2000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【3】衣架【2000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:04:18,603 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【6000 】 衣架未注册!
+2020-01-09 15:04:18,603 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【4】衣架【6000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【6000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:21,936 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【5000 】 衣架未注册!
+2020-01-09 15:04:21,936 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【4】衣架【5000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【5000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:22,117 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【衣架进站异常】 衣架:4001 主轨:1 站点:4  站点未分配进站!
+System.ApplicationException: 【衣架进站异常】 衣架:4001 主轨:1 站点:4  站点未分配进站!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.IsHangerRepeatInStating(Int32 mainTrackNumber, String tenStatingNo, String tenHangerNo, IList`1 fcList) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1035
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1078
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:24,796 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【衣架比较异常】 主轨:1 站点:4 衣架:6000
+2020-01-09 15:04:26,357 [26] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:6000
+2020-01-09 15:04:26,686 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【衣架进站异常】 衣架:3000 主轨:1 站点:4  站点未分配进站!
+System.ApplicationException: 【衣架进站异常】 衣架:3000 主轨:1 站点:4  站点未分配进站!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.IsHangerRepeatInStating(Int32 mainTrackNumber, String tenStatingNo, String tenHangerNo, IList`1 fcList) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1035
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1078
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:27,887 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【5000 】 衣架未注册!
+2020-01-09 15:04:27,888 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架工序比较】 异常:【错误】主轨:【1】站点:【4】衣架【5000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【5000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.CompareHangerFlow(String mainTrackNo, String hangerNo, String statingNo, Int32& tag, String& info, String& errMsg, Boolean& isReworkFlow, String& flowInfo, Boolean isPowerSupply) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 641
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerDropCardRequestMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1094
+2020-01-09 15:04:28,252 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【2000 】 衣架未注册!
+2020-01-09 15:04:28,253 [26] ERROR TcpErrorInfo [(null)] <(null)> - 【衣架进站】 异常:【错误】主轨:【1】站点:【4】衣架【2000 】 衣架未注册!
+System.ApplicationException: 【错误】主轨:【1】站点:【4】衣架【2000 】 衣架未注册!
+   在 SuspeSys.Service.Impl.Products.CANProductsService.RecordHangerArriveStating(Int32 mainTrackNumber, String tenHangerNo, String tenStatingNo, Boolean& isHangerRepeatInStating) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Products\CANProductsService.cs:行号 1054
+   在 Suspe.CAN.Action.CAN.CANTcpServer.Client_HangerArrivalStatingMessageReceived(Object sender, MessageEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\CAN\CANTcpServer.cs:行号 1632
+2020-01-09 15:04:28,377 [26] ERROR TcpErrorInfo [(null)] <(null)> - System.ApplicationException: 【衣架比较异常】 主轨:1 站点:4 衣架:4001
+2020-01-09 15:04:28,393 [4] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:2000
+2020-01-09 15:21:04,350 [5] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1001
+2020-01-09 15:22:39,702 [5] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1001
+2020-01-09 15:24:56,533 [4] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1002
+2020-01-09 15:24:59,670 [14] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1002
+2020-01-09 15:27:19,346 [4] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1003
+2020-01-09 15:27:23,181 [4] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1003
+2020-01-09 15:29:57,780 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1001
+2020-01-09 15:29:59,865 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1001
+2020-01-09 15:30:51,043 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:2001
+2020-01-09 15:30:52,845 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:2001
+2020-01-09 15:31:23,608 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:3001
+2020-01-09 15:31:25,215 [6] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:3001
+2020-01-09 15:31:27,905 [13] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:4001
+2020-01-09 15:31:29,976 [13] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:4001
+2020-01-09 15:31:32,104 [6] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:5001
+2020-01-09 15:31:35,089 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:5001
+2020-01-09 15:31:35,607 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:6001
+2020-01-09 15:31:38,168 [12] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片站出站推送产量】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:6001
+2020-01-09 15:32:25,987 [13] INFO  TcpErrorInfo [(null)] <(null)> - 【挂片出战】未找到挂片读卡衣架! 主轨:1 站点:1 衣架号:1003

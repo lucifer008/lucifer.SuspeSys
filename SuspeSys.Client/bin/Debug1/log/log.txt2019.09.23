@@ -1,0 +1,31 @@
+2019-09-23 14:13:43,385 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化开始
+2019-09-23 14:13:43,455 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-23 14:13:43,471 [4] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.
+2019-09-23 14:13:43,472 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - 语言初始化成功
+2019-09-23 14:13:43,796 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-23 14:13:47,964 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-23 14:13:47,965 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-23 14:13:48,160 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-23 14:13:48,174 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-23 14:13:48,175 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-23 14:23:36,293 [1] INFO  CacheInfo [(null)] <(null)> - 工艺图 flowchartId=54ed0496356746bab2fd862ef26dcdf9变更,更新缓存开始
+2019-09-23 14:23:38,377 [1] ERROR SuspeSys.Client.Modules.Ext.SusXtraUserControl [(null)] <(null)> - System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:9994
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 SuspeSys.Service.SusTcp.IProcessFlowChartCacheService.UpdateOnlineFlowChartCache(String flowChartId)
+   在 SuspeSys.Client.Action.ProcessFlowChart.ProcessFlowChartAction.UpdateProcessFlowChart() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Action\ProcessFlowChart\ProcessFlowChartAction.cs:行号 27
+   在 SuspeSys.Client.Modules.ProduceData.ProcessFlowChartMain.SaveProcessFlowChart() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Modules\ProduceData\ProcessFlowChartMain.cs:行号 248
+   在 SuspeSys.Client.Modules.ProduceData.ProcessFlowChartMain.SusToolBar1_OnButtonClick(ButtonName ButtonName) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Modules\ProduceData\ProcessFlowChartMain.cs:行号 146
+2019-09-23 14:24:02,029 [1] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化开始...
+2019-09-23 14:24:02,057 [1] INFO  SuspeSys.Client.Action.BaseAction [(null)] <(null)> - 语言初始化完成.

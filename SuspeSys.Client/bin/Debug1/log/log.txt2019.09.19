@@ -1,0 +1,64 @@
+2019-09-19 10:42:42,419 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-19 10:42:45,617 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-19 10:42:45,619 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-19 10:42:45,774 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-19 10:42:45,790 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-19 10:42:45,792 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-19 10:42:46,159 [4] ERROR SuspeSys.Service.Impl.Permisson.UserService [(null)] <(null)> - SuspeSys.Utils.Exceptions.BusinessException: 用户名不存在
+   在 SuspeSys.Service.Impl.Permisson.UserService.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Permisson\UserService.cs:行号 49
+2019-09-19 10:42:46,180 [4] ERROR Error [(null)] <(null)> - SuspeSys.Utils.Exceptions.BusinessException: 用户名不存在
+   在 SuspeSys.Service.Impl.Permisson.UserService.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Permisson\UserService.cs:行号 115
+   在 SuspeSys.Service.Impl.Permisson.PermissionServiceImpl.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Permisson\PermissionServiceImpl.cs:行号 483
+   在 SuspeSys.Client.Action.frmLoginAction.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Action\frmLoginAction.cs:行号 14
+   在 DevExpress.XtraTreeList.Demos.frmLogin.backWorkLogin_DoWork(Object sender, DoWorkEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\frmLogin.cs:行号 266
+2019-09-19 11:33:44,047 [5] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-19 11:33:45,746 [5] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-19 11:33:45,747 [5] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-19 11:33:45,911 [5] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-19 11:33:45,918 [5] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-19 11:33:45,919 [5] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-19 11:33:46,209 [5] ERROR SuspeSys.Service.Impl.Permisson.UserService [(null)] <(null)> - SuspeSys.Utils.Exceptions.BusinessException: 用户名或密码错误
+   在 SuspeSys.Service.Impl.Permisson.UserService.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Permisson\UserService.cs:行号 56
+2019-09-19 11:33:46,230 [5] ERROR Error [(null)] <(null)> - SuspeSys.Utils.Exceptions.BusinessException: 用户名或密码错误
+   在 SuspeSys.Service.Impl.Permisson.UserService.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Permisson\UserService.cs:行号 115
+   在 SuspeSys.Service.Impl.Permisson.PermissionServiceImpl.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Service.Impl\Permisson\PermissionServiceImpl.cs:行号 483
+   在 SuspeSys.Client.Action.frmLoginAction.Login(String userName, String password, String clientId) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Action\frmLoginAction.cs:行号 14
+   在 DevExpress.XtraTreeList.Demos.frmLogin.backWorkLogin_DoWork(Object sender, DoWorkEventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\frmLogin.cs:行号 266
+2019-09-19 11:34:07,697 [9] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-19 11:34:07,708 [9] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-19 11:34:07,709 [9] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-19 11:34:07,710 [9] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-19 15:15:55,016 [5] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-19 15:15:58,543 [5] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-19 15:15:58,545 [5] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-19 15:15:58,724 [5] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-19 15:15:58,738 [5] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-19 15:15:58,740 [5] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-19 15:19:16,901 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-19 15:19:18,583 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-19 15:19:18,584 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-19 15:19:18,742 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-19 15:19:18,748 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-19 15:19:18,750 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-19 16:00:23,753 [5] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-19 16:00:25,884 [5] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-19 16:00:25,886 [5] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-19 16:00:26,043 [5] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-19 16:00:26,052 [5] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-19 16:00:26,054 [5] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-09-19 16:02:06,647 [1] ERROR SuspeSys.Client.Index [(null)] <(null)> - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SuspeSys.Client.Modules.SusFlowChartControl.InitData() 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Modules\SusFlowChartControl.cs:行号 44
+   在 SuspeSys.Client.Modules.SusFlowChartControl.SusFlowChartControl_Load(Object sender, EventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Modules\SusFlowChartControl.cs:行号 38
+   在 System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   在 SuspeSys.Client.Modules.Reports.FlowBalanceTableReport..ctor(XtraUserControl1 _ucMain) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Modules\Reports\FlowBalanceTableReport.cs:行号 49
+   在 SuspeSys.Client.Index.FlowBalanceTableReport_Click(Object sender, EventArgs e) 位置 E:\suspe-source\SuspeSys2.0\SuspeSys.Client\Index.cs:行号 1820
+2019-09-19 16:03:20,628 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-09-19 16:03:22,638 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-09-19 16:03:22,639 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-09-19 16:03:22,815 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-09-19 16:03:22,821 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-09-19 16:03:22,822 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！

@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SuspeSys.Client" GeneratedClassName="SuspeSysSetting">
+  <Profiles />
+  <Settings>
+    <Setting Name="Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost/SuspeSysGrantAuthorizationServer/</Value>
+    </Setting>
+    <Setting Name="CompanyName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">厦门悬挂系统</Value>
+    </Setting>
+    <Setting Name="ClientId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0c741ee4fde0458b8d4e29000524059a</Value>
+    </Setting>
+    <Setting Name="ClientPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0c741ee4fde0458b8d4e29000524059a</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0c741ee4fde0458b8d4e29000524059a</Value>
+    </Setting>
+    <Setting Name="UserPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0c741ee4fde0458b8d4e29000524059a</Value>
+    </Setting>
+    <Setting Name="EnableAuthorize" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProcessOrder" table="ProcessOrder" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="Style">
+      <column name="STYLE_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="Customer">
+      <column name="CUSTOMER_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="POrderNo">
+      <column name="POrderNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="POrderNum">
+      <column name="POrderNum" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="MOrderNo">
+      <column name="MOrderNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="POrderType">
+      <column name="POrderType" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="POrderTypeDesption">
+      <column name="POrderTypeDesption" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProductNoticeOrderNo">
+      <column name="ProductNoticeOrderNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="Num">
+      <column name="Num" sql-type="int" not-null="false" />
+    </property>
+    <property name="Status">
+      <column name="Status" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="StyleCode">
+      <column name="StyleCode" sql-type="char" not-null="false" />
+    </property>
+    <property name="StyleName">
+      <column name="StyleName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CustomerNo">
+      <column name="CustomerNO" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CustomerName">
+      <column name="CustomerName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CustomerStyle">
+      <column name="CustomerStyle" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CustOrderNo">
+      <column name="CustOrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CustPurchaseOrderNo">
+      <column name="CustPurchaseOrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="DeliveryDate">
+      <column name="DeliveryDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="GenaterOrderDate">
+      <column name="GenaterOrderDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="OrderNo">
+      <column name="OrderNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

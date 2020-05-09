@@ -1,0 +1,6 @@
+E:\suspe-source\SuspeSys2.0\SuspeSys.Model\bin\Release\SuspeSys.Domain.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Model\bin\Release\SuspeSys.Domain.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Model\bin\Release\Newtonsoft.Json.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Model\bin\Release\Newtonsoft.Json.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Model\obj\Release\SuspeSys.Domain.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Model\obj\Release\SuspeSys.Domain.pdb

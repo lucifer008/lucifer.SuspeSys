@@ -1,0 +1,7 @@
+2020-01-07 18:04:28,402 [6] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2020-01-07 18:04:28,473 [6] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2020-01-07 18:07:55,805 [6] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2020-01-07 18:07:55,819 [6] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2020-01-07 18:08:12,295 [6] INFO  RedisLogInfo [(null)] <(null)> - 正在加载预处理数据...
+2020-01-07 18:08:13,358 [6] INFO  RedisLogInfo [(null)] <(null)> - 无桥接配置
+2020-01-07 18:08:13,451 [6] INFO  RedisLogInfo [(null)] <(null)> - 预处理数据加载完成!

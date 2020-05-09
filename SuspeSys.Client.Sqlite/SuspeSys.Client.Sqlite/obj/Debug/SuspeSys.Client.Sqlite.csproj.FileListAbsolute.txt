@@ -1,0 +1,17 @@
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\SuspeSys.Client.Sqlite.dll.config
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\SuspeSys.Client.Sqlite.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\SuspeSys.Client.Sqlite.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\Dapper.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\DapperExtensions.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\EntityFramework.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\EntityFramework.SqlServer.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\System.Data.SQLite.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\System.Data.SQLite.EF6.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\System.Data.SQLite.Linq.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\Dapper.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\DapperExtensions.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\EntityFramework.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\EntityFramework.SqlServer.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\bin\Debug\System.Data.SQLite.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\obj\Debug\SuspeSys.Client.Sqlite.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\obj\Debug\SuspeSys.Client.Sqlite.pdb

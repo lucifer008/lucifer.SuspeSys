@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProcessOrderFlow" table="Process_Order_Flow" lazy="true" >
+    <id name="Id" column="Id" />
+    <property name="ProcessOrderId">
+      <column name="PROCESS_ORDER_Id" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessNo">
+      <column name="Process_No" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessName">
+      <column name="Process_Name" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessCode">
+      <column name="Process_Code" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessStatus">
+      <column name="Process_Status" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="StanardHours">
+      <column name="Stanard_Hours" sql-type="char" not-null="false" />
+    </property>
+    <property name="StandardPrice">
+      <column name="Standard_Price" sql-type="decimal" not-null="false" />
+    </property>
+    <property name="PrcocessRemark">
+      <column name="Prcocess_Remark" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessColor">
+      <column name="Process_Color" sql-type="char" not-null="false" />
+    </property>
+    <property name="Size">
+      <column name="Size" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="Update_Date_Time" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="Insert_User" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="Update_User" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

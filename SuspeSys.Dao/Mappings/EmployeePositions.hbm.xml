@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EmployeePositions" table="EmployeePositions" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="Position">
+      <column name="POSITION_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <many-to-one name="Employee">
+      <column name="EMPLOYEE_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+  </class>
+</hibernate-mapping>

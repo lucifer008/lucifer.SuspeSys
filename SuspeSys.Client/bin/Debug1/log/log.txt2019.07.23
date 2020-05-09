@@ -1,0 +1,20 @@
+2019-07-23 19:20:11,394 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-07-23 19:20:13,856 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-07-23 19:20:13,857 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-07-23 19:20:14,093 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-07-23 19:20:14,099 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-07-23 19:20:14,100 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-07-23 19:21:16,507 [1] INFO  CacheInfo [(null)] <(null)> - 工艺图 flowchartId=1ace70bef1d345858e3097b07899f8b8变更,更新缓存开始
+2019-07-23 19:29:22,893 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-07-23 19:29:24,963 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-07-23 19:29:24,965 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-07-23 19:29:25,138 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-07-23 19:29:25,145 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-07-23 19:29:25,146 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-07-23 19:41:04,995 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init start....
+2019-07-23 19:41:08,947 [4] INFO  SuspeSys.Dao.Nhibernate.SessionFactory [(null)] <(null)> - info---->hibernate init sucess!
+2019-07-23 19:41:08,949 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化开始
+2019-07-23 19:41:09,201 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis开启:成功
+2019-07-23 19:41:09,218 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!
+2019-07-23 19:41:09,220 [4] INFO  DevExpress.XtraTreeList.Demos.frmLogin [(null)] <(null)> - redis初始化成功！
+2019-07-23 19:43:47,414 [1] INFO  CacheInfo [(null)] <(null)> - 工艺图 flowchartId=1ace70bef1d345858e3097b07899f8b8变更,更新缓存开始

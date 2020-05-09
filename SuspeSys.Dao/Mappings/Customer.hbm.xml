@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Customer" table="Customer" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="CusNo">
+      <column name="CusNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CusName">
+      <column name="CusName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PurchaseOrderNo">
+      <column name="PurchaseOrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Address">
+      <column name="Address" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="LinkMan">
+      <column name="LinkMan" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Tel">
+      <column name="Tel" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

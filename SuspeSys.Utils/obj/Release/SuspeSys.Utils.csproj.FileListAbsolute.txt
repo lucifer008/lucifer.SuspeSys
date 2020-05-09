@@ -1,0 +1,11 @@
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\SuspeSys.Utils.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\SuspeSys.Utils.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\IdentityModel.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\log4net.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\Newtonsoft.Json.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\IdentityModel.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\log4net.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\bin\Release\Newtonsoft.Json.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\obj\Release\SuspeSys.Utils.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\obj\Release\SuspeSys.Utils.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Utils\obj\Release\SuspeSys.Utils.csprojResolveAssemblyReference.cache

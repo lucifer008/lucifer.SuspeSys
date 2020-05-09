@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProcessFlowChart" table="ProcessFlowChart" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="ProcessFlowVersion">
+      <column name="PROCESSFLOWVERSION_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="LinkName">
+      <column name="LinkName" sql-type="char" not-null="false" />
+    </property>
+    <property name="PFlowChartNum">
+      <column name="pFlowChartNum" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="ProductPosition">
+      <column name="ProductPosition" sql-type="char" not-null="false" />
+    </property>
+    <property name="TargetNum">
+      <column name="TargetNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="OutputProcessFlowId">
+      <column name="OutputProcessFlowId" sql-type="char" not-null="false" />
+    </property>
+    <property name="BoltProcessFlowId">
+      <column name="BoltProcessFlowId" sql-type="char" not-null="false" />
+    </property>
+    <property name="Remark">
+      <column name="Remark" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

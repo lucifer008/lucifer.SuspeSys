@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SucessProducts" table="SucessProducts" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="GroupNo">
+      <column name="GroupNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="MainTrackNumber">
+      <column name="MainTrackNumber" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="ProductsId">
+      <column name="ProductsId" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProductionNumber">
+      <column name="ProductionNumber" sql-type="int" not-null="false" />
+    </property>
+    <property name="ImplementDate">
+      <column name="ImplementDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="HangingPieceSiteNo">
+      <column name="HangingPieceSiteNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ProcessOrderNo">
+      <column name="ProcessOrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Status">
+      <column name="Status" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CustomerPurchaseOrderId">
+      <column name="CustomerPurchaseOrderId" sql-type="char" not-null="false" />
+    </property>
+    <property name="OrderNo">
+      <column name="OrderNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="StyleNo">
+      <column name="StyleNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PColor">
+      <column name="PColor" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Po">
+      <column name="PO" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="PSize">
+      <column name="PSize" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="LineName">
+      <column name="LineName" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="FlowSection">
+      <column name="FlowSection" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Unit">
+      <column name="Unit" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="TaskNum">
+      <column name="TaskNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="OnlineNum">
+      <column name="OnlineNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="TodayHangingPieceSiteNum">
+      <column name="TodayHangingPieceSiteNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="TodayProdOutNum">
+      <column name="TodayProdOutNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="TotalProdOutNum">
+      <column name="TotalProdOutNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="TodayBindCard">
+      <column name="TodayBindCard" sql-type="int" not-null="false" />
+    </property>
+    <property name="TodayRework">
+      <column name="TodayRework" sql-type="int" not-null="false" />
+    </property>
+    <property name="TotalHangingPieceSiteNum">
+      <column name="TotalHangingPieceSiteNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="TotalRework">
+      <column name="TotalRework" sql-type="int" not-null="false" />
+    </property>
+    <property name="TotalBindNum">
+      <column name="TotalBindNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Release\SuspeSys.Support.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Release\SuspeSys.Support.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Release\AutoMapper.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Release\log4net.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Release\AutoMapper.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\bin\Release\log4net.xml
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\obj\Release\SuspeSys.Support.dll
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\obj\Release\SuspeSys.Support.pdb
+E:\suspe-source\SuspeSys2.0\SuspeSys.Support\obj\Release\SuspeSys.Support.csprojResolveAssemblyReference.cache

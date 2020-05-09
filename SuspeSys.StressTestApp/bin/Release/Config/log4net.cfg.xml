@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+
+  <logger name="MontorLogger">
+    <level value="ALL" />
+    <appender-ref ref="MontorAppender" />
+  </logger>
+  <logger name="CacheInfo">
+    <level value="ALL" />
+    <appender-ref ref="CacheAppender" />
+  </logger>
+  <logger name="RedisLogInfo">
+    <level value="ALL" />
+    <appender-ref ref="RedisAppender" />
+  </logger>
+  <logger name="TcpLogInfo">
+    <level value="ALL" />
+    <appender-ref ref="TcpInfoAppender" />
+  </logger>
+  <logger name="LogLogger">
+    <level value="ALL" />
+    <appender-ref ref="trace" />
+  </logger>
+  <logger name="AuthorizationDetection">
+    <level value="ALL" />
+    <appender-ref ref="AuthorizationDetectionrAppender" />
+  </logger>
+  <logger name="TcpErrorInfo">
+    <level value="ALL" />
+    <appender-ref ref="TcpErrorAppender" />
+  </logger>
+  <logger name="TcpHardwareInfo">
+    <level value="ALL" />
+    <appender-ref ref="TcpHardwareAppender" />
+  </logger>
+  <logger name="Error">
+    <level value="ALL" />
+    <appender-ref ref="ErrorAppender" />
+  </logger>
+  <logger name="Timers">
+    <level value="ALL" />
+    <appender-ref ref="TimesAppender" />
+  </logger>
+
+  <!--NHibernateSQL 执行跟踪-->
+  <logger name="NHibernate" additivity="false">
+    <level value="ERROR"/>
+    <appender-ref ref="DebugAppender" />
+  </logger>
+  <logger name="NHibernate.SQL" additivity="false">
+    <level value="ERROR"/>
+    <appender-ref ref="DebugAppender" />
+  </logger>
+
+  <logger name="NHibernate.AdoNet.AbstractBatcher" additivity="false">
+    <level value="ERROR"/>
+    <appender-ref ref="DebugAppender" />
+  </logger>
+  <logger name="TaskLogger">
+    <level value="ALL" />
+    <appender-ref ref="TaskAppender" />
+  </logger>
+  <appender name="TaskAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="File" value="log/task.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="MontorAppender" type="log4net.Appender.RollingFileAppender,log4net" >
+    <param name="File" value="log/tcpLog/montor.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="CacheAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="File" value="log/susCache.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="RedisAppender" type="log4net.Appender.RollingFileAppender,log4net" >
+    <param name="File" value="log/redis.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="trace" type="log4net.Appender.RollingFileAppender,log4net">
+    <param name="File" value="log/log.txt" />
+    <layout type="log4net.Layout.PatternLayout, log4net">
+      <param name="ConversionPattern" value="%d{ABSOLUTE} %-5p %c{1}:%L - %m%n" />
+    </layout>
+  </appender>
+  <appender name="rollingFile" type="log4net.Appender.RollingFileAppender,log4net" >
+    <param name="File" value="log/log.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d 线程ID--->[%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="ErrorAppender" type="log4net.Appender.RollingFileAppender,log4net" >
+    <param name="File" value="log/errr.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="TimesAppender" type="log4net.Appender.RollingFileAppender,log4net" >
+    <param name="File" value="log/timesLog.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="TcpInfoAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="File" value="log/tcpLog/tcp-info.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+    <mapping>
+      <level value="ERROR" />
+      <foreColor value="Red, highintensity" />
+    </mapping>
+    <mapping>
+      <level value="WARN" />
+      <foreColor value="Yellow, highintensity" />
+    </mapping>
+    <mapping>
+      <level value="ALL" />
+      <foreColor value="Green, highintensity" />
+    </mapping>
+    <layout type="log4net.Layout.PatternLayout,log4net">
+
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="ColoredConsoleAppender" type="log4net.Appender.ColoredConsoleAppender">
+    <mapping>
+      <level value="ERROR" />
+      <foreColor value="Red, highintensity" />
+    </mapping>
+    <mapping>
+      <level value="WARN" />
+      <foreColor value="Yellow, highintensity" />
+    </mapping>
+    <mapping>
+      <level value="ALL" />
+      <foreColor value="Green, highintensity" />
+    </mapping>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="级别--->*%-10level 日期--->%-30date 日志内容---->%message [%logger] 线程ID--->[%thread] %newline" />
+    </layout>
+  </appender>
+  <appender name="TcpErrorAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="File" value="log/tcpLog/tcp-error.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="TcpHardwareAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="File" value="log/tcpLog/tcp-hardware.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="%d [%t] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="AuthorizationDetectionrAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="File" value="log/AuthorizationDetection/AuthorizationDetection.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="RollingStyle" value="Date" />
+    <param name="DatePattern" value="yyyy.MM.dd" />
+    <param name="StaticLogFileName" value="true" />
+
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <param name="ConversionPattern" value="日期--->%d 线程ID--->[%thread] %-5p %c [%x] &lt;%X{auth}&gt; - %m%n" />
+    </layout>
+  </appender>
+  <appender name="trace2" type="log4net.Appender.TraceAppender, log4net">
+    <param name="File" value="log.txt" />
+    <layout type="log4net.Layout.PatternLayout, log4net">
+      <param name="ConversionPattern" value="%d{ABSOLUTE} %-5p %c{1}:%L - %m%n" />
+    </layout>
+  </appender>
+  <!--输入日志到控制台-->
+  <appender name="ConsoleAppender" type="log4net.Appender.ConsoleAppender">
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="[时间]:%d%n[级别]:%p%n[内容]:%m%n%n"></conversionPattern>
+    </layout>
+  </appender>
+  <appender name="AdoNetAppender" type="log4net.Appender.AdoNetAppender">
+    <bufferSize value="100" />
+    <connectionType value="System.Data.SqlClient.SqlConnection, System.Data, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <connectionString value="data source=localhost;initial catalog=SyspeSysV2.0;integrated security=false;persist security info=True;User ID=sa;Password=sa" />
+    <commandText value="INSERT INTO Log ([Date],[Thread],[Level],[Logger],[Message],[Exception]) VALUES (@log_date, @thread, @log_level, @logger, @message, @exception)" />
+    <parameter>
+      <parameterName value="@log_date" />
+      <dbType value="DateTime" />
+      <layout type="log4net.Layout.RawTimeStampLayout" />
+    </parameter>
+    <parameter>
+      <parameterName value="@thread" />
+      <dbType value="String" />
+      <size value="255" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%thread" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@log_level" />
+      <dbType value="String" />
+      <size value="50" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%level" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@logger" />
+      <dbType value="String" />
+      <size value="255" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%logger" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@message" />
+      <dbType value="String" />
+      <size value="4000" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%message" />
+      </layout>
+    </parameter>
+    <parameter>
+      <parameterName value="@exception" />
+      <dbType value="String" />
+      <size value="2000" />
+      <layout type="log4net.Layout.ExceptionLayout" />
+    </parameter>
+  </appender>
+  <root>
+    <!--如果只需要看看Sql设置INFO就够了，如果你要调试可以设置为DEBUG或ALL-->
+    <level value="ALL" />
+    <appender-ref ref="AdoNetAppender" />
+    <appender-ref ref="trace" />
+    <appender-ref ref="trace2" />
+    <appender-ref ref="ConsoleAppender" />
+  </root>
+
+</log4net>

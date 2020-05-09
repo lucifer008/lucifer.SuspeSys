@@ -1,0 +1,2 @@
+2019-10-29 13:09:52,457 [4] INFO  RedisLogInfo [(null)] <(null)> - Redis¿ªÆô:³É¹¦
+2019-10-29 13:09:52,477 [4] INFO  RedisLogInfo [(null)] <(null)> - redis start sucess!

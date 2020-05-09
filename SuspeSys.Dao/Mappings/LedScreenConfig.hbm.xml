@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="LedScreenConfig" table="LEDScreenConfig" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="ScreenNo">
+      <column name="ScreenNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ControllerTypeTxt">
+      <column name="ControllerTypeTxt" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="ControllerKey">
+      <column name="ControllerKey" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="CommunicationWay">
+      <column name="CommunicationWay" sql-type="int" not-null="false" />
+    </property>
+    <property name="CommunicationWayTxt">
+      <column name="CommunicationWayTxt" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="SWidth">
+      <column name="SWidth" sql-type="int" not-null="false" />
+    </property>
+    <property name="SHeight">
+      <column name="SHeight" sql-type="int" not-null="false" />
+    </property>
+    <property name="ColorType">
+      <column name="ColorType" sql-type="int" not-null="false" />
+    </property>
+    <property name="ColorTypeTxt">
+      <column name="ColorTypeTxt" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="IpAddress">
+      <column name="IPAddress" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Port">
+      <column name="Port" sql-type="int" not-null="false" />
+    </property>
+    <property name="GroupNo">
+      <column name="GroupNo" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Enable">
+      <column name="Enable" sql-type="bit" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

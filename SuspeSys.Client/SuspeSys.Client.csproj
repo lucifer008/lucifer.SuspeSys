@@ -1,0 +1,2638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{203E75E9-3D77-4683-8327-3D34003F0F0D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuspeSys.Client</RootNamespace>
+    <AssemblyName>SuspeSys.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug1\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\logo\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BSE.Windows.Forms">
+      <HintPath>..\Libs\BSE.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.BonusSkins.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.Designer.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Charts.Designer.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Charts.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.CodeParser.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Data.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.DataAccess.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v15.1.UI, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.DataAccess.v15.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DemoData.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <HintPath>..\..\..\SuspeUpdate\SuspeSoft\悬挂客户端\DevExpress.DemoData.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DevAV.v15.1.Data, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.DevAV.v15.1.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DevAV.v15.1.Reports, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.DevAV.v15.1.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.ExpressApp.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.ExpressApp.Win.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Images.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Map.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Map.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Mvvm.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Office.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.PivotGrid.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Printing.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.RichEdit.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Sparkline.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <HintPath>..\..\..\SuspeUpdate\SuspeSoft\悬挂客户端\DevExpress.SpellChecker.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v15.1.Core">
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Spreadsheet.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Tutorials.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\SuspeUpdate\SuspeSoft\悬挂客户端\DevExpress.Tutorials.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Utils.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.1.UI, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Utils.v15.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Map.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.Xpf.Map.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraBars.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraCharts.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.1.Extensions, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraCharts.v15.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.1.UI, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraCharts.v15.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.1.Web, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraCharts.v15.1.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.1.Wizard, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraCharts.v15.1.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraEditors.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraGauges.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraGrid.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraLayout.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraMap.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraNavBar.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraPivotGrid.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraPrinting.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraReports.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraReports.v15.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraRichEdit.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraScheduler.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraScheduler.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v15.1.Core.resources, Version=15.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraScheduler.v15.1.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v15.1.Extensions, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v15.1.Extensions.resources, Version=15.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraScheduler.v15.1.Extensions.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v15.1.resources, Version=15.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraScheduler.v15.1.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraSpreadsheet.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraTreeList.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dev\dev_all\DevExpress.XtraVerticalGrid.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexCell">
+      <HintPath>..\Libs\dev\dev_all\FlexCell.dll</HintPath>
+    </Reference>
+    <Reference Include="KUI">
+      <HintPath>..\Libs\KUI.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=0.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="StackExchange.Redis, Version=1.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.1.2.6\lib\net46\StackExchange.Redis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StackExchange.Redis.DataTypes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.DataTypes.1.0.0.1\lib\net45\StackExchange.Redis.DataTypes.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite, Version=1.0.107.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.107.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.107.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.107.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.107.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.107.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Zhuantou.Control.Client.DataGrid">
+      <HintPath>..\Libs\dev\dev_all\Zhuantou.Control.Client.DataGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action\Attendance\AttendanceAction.cs" />
+    <Compile Include="Action\BaseAction.cs" />
+    <Compile Include="Action\BasicInfo\BasicInfoAction.cs" />
+    <Compile Include="Action\BasicInfo\Model\BasicInfoModel.cs" />
+    <Compile Include="Action\ClothingVehicle\ClothingVehicleAction.cs" />
+    <Compile Include="Action\Common\CommonAction.cs" />
+    <Compile Include="Action\Common\SystemParameterAction.cs" />
+    <Compile Include="Action\Customer\CustomerAction.cs" />
+    <Compile Include="Action\Customer\Model\CustomerModel.cs" />
+    <Compile Include="Action\CustPurchaseOrder\CustPurchaseOrderAction.cs" />
+    <Compile Include="Action\CustPurchaseOrder\Model\CusPurchColorAndSizeModel.cs" />
+    <Compile Include="Action\CustPurchaseOrder\Model\CustPurchaseOrderModel.cs" />
+    <Compile Include="Action\frmLoginAction.cs" />
+    <Compile Include="Action\LanguageAction.cs" />
+    <Compile Include="Action\LED\LEDAction.cs" />
+    <Compile Include="Common\CardReader.cs" />
+    <Compile Include="Modules\Attendance\ClassesEmployeesInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Attendance\ClassesEmployeesInput.Designer.cs">
+      <DependentUpon>ClassesEmployeesInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Attendance\HolidayIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Attendance\HolidayIndex.Designer.cs">
+      <DependentUpon>HolidayIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Ext\InputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\InputForm.Designer.cs">
+      <DependentUpon>InputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Ext\SusAccordionControlElement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\LED\HourlyPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\LED\HourlyPlan.Designer.cs">
+      <DependentUpon>HourlyPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\LED\LEDBoardSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\LED\LEDBoardSet.Designer.cs">
+      <DependentUpon>LEDBoardSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Action\Permission\ModuleAction.cs" />
+    <Compile Include="Action\Permission\RoleAction.cs" />
+    <Compile Include="Action\Permission\UsersAddAction.cs" />
+    <Compile Include="Action\Permission\UsersIndexAction.cs" />
+    <Compile Include="Action\Permission\RoleModuleIndexAction.cs" />
+    <Compile Include="Action\PersonnelManagement\EmployeeAddAction.cs" />
+    <Compile Include="Action\PersonnelManagement\EmployeeIndexAction.cs" />
+    <Compile Include="Action\PersonnelManagement\DepartmentIndexAction.cs" />
+    <Compile Include="Action\PersonnelManagement\PositionIndexAction.cs" />
+    <Compile Include="Action\PersonnelManagement\ProductGroupIndexAction.cs" />
+    <Compile Include="Action\PersonnelManagement\SiteGroupIndexAction.cs" />
+    <Compile Include="Action\PersonnelManagement\UserOperatorLogIndexAction.cs" />
+    <Compile Include="Action\PersonnelManagement\WorkTypeIndexAction.cs" />
+    <Compile Include="Action\ProcessFlowChart\Model\ProcessFlowChartModel.cs" />
+    <Compile Include="Action\ProcessFlowChart\ProcessFlowChartAction.cs" />
+    <Compile Include="Action\ProcessFlowChart\ProcessFlowChartQueryAction.cs" />
+    <Compile Include="Action\ProcessOrder\Model\ColorAndSizeModel.cs" />
+    <Compile Include="Action\ProcessOrder\Model\ColorSizeRelationModel.cs" />
+    <Compile Include="Action\ProcessOrder\Model\ProcessFlowModel.cs" />
+    <Compile Include="Action\ProcessOrder\Model\ProcessOrderModel.cs" />
+    <Compile Include="Action\ProcessOrder\Model\ProcessOrderQueryModel.cs" />
+    <Compile Include="Action\ProcessOrder\ProcessOrderFlowAction.cs" />
+    <Compile Include="Action\ProcessOrder\ProcessOrderQueryAction.cs" />
+    <Compile Include="Action\ProcessOrder\ProcessOrderAction.cs" />
+    <Compile Include="Action\ProductionLineSet\ClientInfoAction.cs" />
+    <Compile Include="Action\ProductionLineSet\Model\ProductionLineSetModel.cs" />
+    <Compile Include="Action\ProductionLineSet\Model\StatingInfoModel.cs" />
+    <Compile Include="Action\ProductionLineSet\ProductionLineSetAction.cs" />
+    <Compile Include="Action\Products\Model\ProductsModel.cs" />
+    <Compile Include="Action\Products\ProductsAction.cs" />
+    <Compile Include="Action\Query\CommonQueryAction.cs" />
+    <Compile Include="Action\Query\Model\CommonQueryModel.cs" />
+    <Compile Include="Action\Report\ReportQueryAction.cs" />
+    <Compile Include="Action\SuspeApplicationAction.cs" />
+    <Compile Include="Action\SuspeRemotingClient\SuspeRemotingService.cs" />
+    <Compile Include="Action\TcpTest\Model\TcpMessageModel.cs" />
+    <Compile Include="Action\TcpTest\TcpTestAction.cs" />
+    <Compile Include="Action\TestAction.cs" />
+    <Compile Include="ChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePwd.Designer.cs">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CommonResources.Designer.cs" />
+    <Compile Include="Common\DataModel\DbExceptions.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbExceptionsConverter.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbReadOnlyRepository.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbRepository.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbUnitOfWork.cs" />
+    <Compile Include="Common\DataModel\EntityState.cs" />
+    <Compile Include="Common\DataModel\IReadOnlyRepository.cs" />
+    <Compile Include="Common\DataModel\IRepository.cs" />
+    <Compile Include="Common\DataModel\IUnitOfWork.cs" />
+    <Compile Include="Common\DataModel\UnitOfWorkBase.cs" />
+    <Compile Include="Common\FormPermissionAttribute.cs" />
+    <Compile Include="Common\Utils\DataAnnotationHelper.cs" />
+    <Compile Include="Common\Utils\DateUitls.cs" />
+    <Compile Include="Common\Utils\DbExtensions.cs" />
+    <Compile Include="Common\Utils\ExpressionHelper.cs" />
+    <Compile Include="Common\Utils\ExtThis.cs" />
+    <Compile Include="Common\Utils\GridControlHelper.cs" />
+    <Compile Include="Common\Utils\GridViewUils.cs" />
+    <Compile Include="Common\Utils\Permission\MenuPermission.cs" />
+    <Compile Include="Common\Utils\Permission\RibbonControlPermission.cs" />
+    <Compile Include="Common\Utils\Permission\ToolBarPermision.cs" />
+    <Compile Include="Common\Utils\ProcessTracker.cs" />
+    <Compile Include="Common\Utils\StartUpProcess.cs" />
+    <Compile Include="Common\Utils\SusTransitionManager.cs" />
+    <Compile Include="Common\Utils\XtraTabPageHelper.cs" />
+    <Compile Include="Common\Utils\XtraTreeHelpler.cs" />
+    <Compile Include="Common\ViewModel\CollectionViewModel.cs" />
+    <Compile Include="Common\ViewModel\CollectionViewModel.partial.cs" />
+    <Compile Include="Common\ViewModel\DocumentContentViewModelBase.cs" />
+    <Compile Include="Common\ViewModel\EntitiesViewModel.cs" />
+    <Compile Include="Common\ViewModel\ISingleObjectViewModel.cs" />
+    <Compile Include="Common\ViewModel\LookUpEntitiesViewModel.cs" />
+    <Compile Include="Common\ViewModel\Messages.cs" />
+    <Compile Include="Common\ViewModel\Messages.partial.cs" />
+    <Compile Include="Common\ViewModel\PeekCollectionViewModel.cs" />
+    <Compile Include="Common\ViewModel\ReadOnlyCollectionViewModel.cs" />
+    <Compile Include="Common\ViewModel\SingleObjectChildViewModel.cs" />
+    <Compile Include="Common\ViewModel\SingleObjectViewModel.cs" />
+    <Compile Include="Common\ViewModel\SingleObjectViewModel.partial.cs" />
+    <Compile Include="Controls\Helpers.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginWaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginWaiting.Designer.cs">
+      <DependentUpon>frmLoginWaiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain1.Designer.cs">
+      <DependentUpon>frmMain1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest2.Designer.cs">
+      <DependentUpon>frmTest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LockScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LockScreen.Designer.cs">
+      <DependentUpon>LockScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageEventArgs.cs" />
+    <Compile Include="Modules\Attendance\ClassesEmployeesIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Attendance\ClassesEmployeesIndex.Designer.cs">
+      <DependentUpon>ClassesEmployeesIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Attendance\ClassesInfoIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Attendance\ClassesInfoIndex.Designer.cs">
+      <DependentUpon>ClassesInfoIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Attendance\ClassesInfoInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Attendance\ClassesInfoInput.Designer.cs">
+      <DependentUpon>ClassesInfoInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AuthorizationManagement\InitAppInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\AuthorizationManagement\InitAppInfo.Designer.cs">
+      <DependentUpon>InitAppInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AuthorizationManagement\RegIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\AuthorizationManagement\RegIndex.Designer.cs">
+      <DependentUpon>RegIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AuthorizationManagement\AuthorizationIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\AuthorizationManagement\AuthorizationIndex.Designer.cs">
+      <DependentUpon>AuthorizationIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BaseModule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicColorTableIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicColorTableIndex.Designer.cs">
+      <DependentUpon>BasicColorTableIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\LackOfMaterialCodeIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\LackOfMaterialCodeIndex.Designer.cs">
+      <DependentUpon>LackOfMaterialCodeIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\DefectCodeIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\DefectCodeIndex.Designer.cs">
+      <DependentUpon>DefectCodeIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleIndex.Designer.cs">
+      <DependentUpon>StyleIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleProcessLirbaryIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleProcessLirbaryIndex.Designer.cs">
+      <DependentUpon>StyleProcessLirbaryIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicProcessLirbaryIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicProcessLirbaryIndex.Designer.cs">
+      <DependentUpon>BasicProcessLirbaryIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicProcessSectionIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicProcessSectionIndex.Designer.cs">
+      <DependentUpon>BasicProcessSectionIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicSizeTableIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\BasicSizeTableIndex.Designer.cs">
+      <DependentUpon>BasicSizeTableIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleProcessLirbaryInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleProcessLirbaryInput.Designer.cs">
+      <DependentUpon>StyleProcessLirbaryInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleProcessLirbaryInputMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicInfo\StyleProcessLirbaryInputMain.Designer.cs">
+      <DependentUpon>StyleProcessLirbaryInputMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ChangeDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ChangeDatabase.Designer.cs">
+      <DependentUpon>ChangeDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Customer\CustomerOrderInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Customer\CustomerOrderInput.Designer.cs">
+      <DependentUpon>CustomerOrderInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CuttingBed\GoodCardInfoIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\CuttingBed\GoodCardInfoIndex.Designer.cs">
+      <DependentUpon>GoodCardInfoIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CuttingBed\SusTreeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\CRUDControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\CRUDControl.Designer.cs">
+      <DependentUpon>CRUDControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Ext\CustomEditors\RepositoryItemMyEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\Loading.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Ext\SusAccordionControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\SusGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\SusImageComboBoxItem.cs" />
+    <Compile Include="Modules\Ext\SusLable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\SusRepositoryItemCheckEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\SusXtraTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\SusXtraTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\SusXtraUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Ext\SusXtraUserControl.Designer.cs">
+      <DependentUpon>SusXtraUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Ext\TagExt.cs" />
+    <Compile Include="Modules\Interfaces.cs" />
+    <Compile Include="Modules\MultipleLanguage\MulLanguageIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\MultipleLanguage\MulLanguageIndex.Designer.cs">
+      <DependentUpon>MulLanguageIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Permission\ModuleAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Permission\ModuleAdd.Designer.cs">
+      <DependentUpon>ModuleAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Permission\ModuleIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Permission\ModuleIndex.Designer.cs">
+      <DependentUpon>ModuleIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Permission\RoleIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Permission\RoleIndex.Designer.cs">
+      <DependentUpon>RoleIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Permission\RoleModuleIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Permission\RoleModuleIndex.Designer.cs">
+      <DependentUpon>RoleModuleIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Permission\UserAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Permission\UserAdd.Designer.cs">
+      <DependentUpon>UserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Permission\UserIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Permission\UserIndex.Designer.cs">
+      <DependentUpon>UserIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\CardInfoAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\CardInfoAdd.Designer.cs">
+      <DependentUpon>CardInfoAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\CardInfoIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\CardInfoIndex.Designer.cs">
+      <DependentUpon>CardInfoIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\EmployeeAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\EmployeeAdd.Designer.cs">
+      <DependentUpon>EmployeeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\EmployeeIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\EmployeeIndex.Designer.cs">
+      <DependentUpon>EmployeeIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\FactoryIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\FactoryIndex.Designer.cs">
+      <DependentUpon>FactoryIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\PositionIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\PositionIndex.Designer.cs">
+      <DependentUpon>PositionIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\ProductGroupIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\ProductGroupIndex.Designer.cs">
+      <DependentUpon>ProductGroupIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\DepartmentIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\DepartmentIndex.Designer.cs">
+      <DependentUpon>DepartmentIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\SiteGroupIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\SiteGroupIndex.Designer.cs">
+      <DependentUpon>SiteGroupIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\UserOperatorLogDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\UserOperatorLogDetail.Designer.cs">
+      <DependentUpon>UserOperatorLogDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\UserOperatorLogIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\UserOperatorLogIndex.Designer.cs">
+      <DependentUpon>UserOperatorLogIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\WorkshopIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\WorkshopIndex.Designer.cs">
+      <DependentUpon>WorkshopIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\WorkTypeIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PersonnelManagement\WorkTypeIndex.Designer.cs">
+      <DependentUpon>WorkTypeIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowChartIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowChartIndex.Designer.cs">
+      <DependentUpon>ProcessFlowChartIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowIndex.Designer.cs">
+      <DependentUpon>ProcessFlowIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowChartMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowChartMain.Designer.cs">
+      <DependentUpon>ProcessFlowChartMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessFlowMain.Designer.cs">
+      <DependentUpon>ProcessFlowMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessOrdersInputNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\PurchaseProcessOrdersInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\PurchaseProcessOrdersInputMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\PurchaseProcessOrdersInputMain.Designer.cs">
+      <DependentUpon>PurchaseProcessOrdersInputMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\BridgeSetIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\BridgeSetIndex.Designer.cs">
+      <DependentUpon>BridgeSetIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\ClientInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\ClientInfo.Designer.cs">
+      <DependentUpon>ClientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\ClientMancheParamterSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\ClientMancheParamterSet.Designer.cs">
+      <DependentUpon>ClientMancheParamterSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\ControlConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\ControlConfiguration.Designer.cs">
+      <DependentUpon>ControlConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\HangUpLineSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\HangUpLineSet.Designer.cs">
+      <DependentUpon>HangUpLineSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\PipelineIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\PipelineIndex.Designer.cs">
+      <DependentUpon>PipelineIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\PipelineMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\PipelineMain.Designer.cs">
+      <DependentUpon>PipelineMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\StatingInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\StatingInput.Designer.cs">
+      <DependentUpon>StatingInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\SystemMsg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\SystemMsg.Designer.cs">
+      <DependentUpon>SystemMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\UserParamterSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionLineSet\UserParamterSet.Designer.cs">
+      <DependentUpon>UserParamterSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Products\frmChangeFlowChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Products\frmChangeFlowChart.Designer.cs">
+      <DependentUpon>frmChangeFlowChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Products\ProductPartIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Products\ProductPartIndex.Designer.cs">
+      <DependentUpon>ProductPartIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Products\ProductsInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Products\ProductsInput.Designer.cs">
+      <DependentUpon>ProductsInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\CoatHangerIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\CoatHangerIndex.Designer.cs">
+      <DependentUpon>CoatHangerIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\EmployeeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\EmployeeDialog.Designer.cs">
+      <DependentUpon>EmployeeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\OnlineOrInStationItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\OnlineOrInStationItem.Designer.cs">
+      <DependentUpon>OnlineOrInStationItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\ProductRealtimeInfoIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\ProductRealtimeInfoIndex.Designer.cs">
+      <DependentUpon>ProductRealtimeInfoIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\ProductsingInfoIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\ProductsingInfoIndex.Designer.cs">
+      <DependentUpon>ProductsingInfoIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\SetAdjustmentPlanYield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\SetAdjustmentPlanYield.Designer.cs">
+      <DependentUpon>SetAdjustmentPlanYield.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\SetAdjustmentUnitProductsQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\SetAdjustmentUnitProductsQuantity.Designer.cs">
+      <DependentUpon>SetAdjustmentUnitProductsQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\StatingPropertyMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\RealtimeInfo\StatingPropertyMaintain.Designer.cs">
+      <DependentUpon>StatingPropertyMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\DefectAnalysisReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\DefectAnalysisReport.Designer.cs">
+      <DependentUpon>DefectAnalysisReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\EmployeeYieldReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\EmployeeYieldReport.Designer.cs">
+      <DependentUpon>EmployeeYieldReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\FlowBalanceTableReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\FlowBalanceTableReport.Designer.cs">
+      <DependentUpon>FlowBalanceTableReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\GroupCompetitionReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\GroupCompetitionReport.Designer.cs">
+      <DependentUpon>GroupCompetitionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\ProductItemReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\ProductItemReport.Designer.cs">
+      <DependentUpon>ProductItemReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\ReportEmployeeYield.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\ReportEmployeeYield.Designer.cs">
+      <DependentUpon>ReportEmployeeYield.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\ReworkCollAndDefectAnalysisReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\ReworkCollAndDefectAnalysisReport.Designer.cs">
+      <DependentUpon>ReworkCollAndDefectAnalysisReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\ReworkDetailReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\ReworkDetailReport.Designer.cs">
+      <DependentUpon>ReworkDetailReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\UCBaseReort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\UCBaseReort.Designer.cs">
+      <DependentUpon>UCBaseReort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\UCRportTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\UCRportTest.Designer.cs">
+      <DependentUpon>UCRportTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\WorkingHoursAnalysisReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\WorkingHoursAnalysisReport.Designer.cs">
+      <DependentUpon>WorkingHoursAnalysisReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reports\YieldCollect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Reports\YieldCollect.Designer.cs">
+      <DependentUpon>YieldCollect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\FalutCodeTableIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\FalutCodeTableIndex.Designer.cs">
+      <DependentUpon>FalutCodeTableIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\MechanicEmployeeIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\MechanicEmployeeIndex.Designer.cs">
+      <DependentUpon>MechanicEmployeeIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineDataIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineDataIndex.Designer.cs">
+      <DependentUpon>SewingMachineDataIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineLoginLogIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineLoginLogIndex.Designer.cs">
+      <DependentUpon>SewingMachineLoginLogIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineRepairLogIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineRepairLogIndex.Designer.cs">
+      <DependentUpon>SewingMachineRepairLogIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineTypeIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SewingMachine\SewingMachineTypeIndex.Designer.cs">
+      <DependentUpon>SewingMachineTypeIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\ChangeUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\ChangeUser.Designer.cs">
+      <DependentUpon>ChangeUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\EmployeesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\EmployeesDialog.Designer.cs">
+      <DependentUpon>EmployeesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\HangingPieceStatingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\HangingPieceStatingDialog.Designer.cs">
+      <DependentUpon>HangingPieceStatingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\PColorAndSizeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\PColorAndSizeDialog.Designer.cs">
+      <DependentUpon>PColorAndSizeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\ColorAndSizeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\ColorAndSizeDialog.Designer.cs">
+      <DependentUpon>ColorAndSizeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessOrderIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessOrderIndex.Designer.cs">
+      <DependentUpon>ProcessOrderIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProduceData\ProcessOrdersInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Customer\CustomerInfoIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Customer\CustomerInfoIndex.Designer.cs">
+      <DependentUpon>CustomerInfoIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Customer\CustomerOrderIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Customer\CustomerOrderIndex.Designer.cs">
+      <DependentUpon>CustomerOrderIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\CopyProcessOrderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\CopyProcessOrderDialog.Designer.cs">
+      <DependentUpon>CopyProcessOrderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\CustomerOrderSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\CustomerOrderSelectDialog.Designer.cs">
+      <DependentUpon>CustomerOrderSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\StyleSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\StyleSelectDialog.Designer.cs">
+      <DependentUpon>StyleSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusDialog\CustomerSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SusDialog\CustomerSelectDialog.Designer.cs">
+      <DependentUpon>CustomerSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusEmpty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusEmpty.Designer.cs">
+      <DependentUpon>SusEmpty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusFlowChartControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusFlowChartControl.Designer.cs">
+      <DependentUpon>SusFlowChartControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusGrid.Designer.cs">
+      <DependentUpon>SusGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusPage.Designer.cs">
+      <DependentUpon>SusPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Suspe\Suspe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Suspe\Suspe.Designer.cs">
+      <DependentUpon>Suspe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusQueryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusQueryControl.Designer.cs">
+      <DependentUpon>SusQueryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusToolBar.Designer.cs">
+      <DependentUpon>SusToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusToolBar2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusToolBar2.Designer.cs">
+      <DependentUpon>SusToolBar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SusTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SusTreeView.Designer.cs">
+      <DependentUpon>SusTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TcpTest\HangerSendStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\TcpTest\HangerSendStatus.Designer.cs">
+      <DependentUpon>HangerSendStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TcpTest\HangerToMainTrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\TcpTest\HangerToMainTrack.Designer.cs">
+      <DependentUpon>HangerToMainTrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TcpTest\ProcessFlowHangingPiece.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\TcpTest\ProcessFlowHangingPiece.Designer.cs">
+      <DependentUpon>ProcessFlowHangingPiece.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TcpTest\TcpConected.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\TcpTest\TcpConected.Designer.cs">
+      <DependentUpon>TcpConected.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TcpTest\TcpTestMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\TcpTest\TcpTestMain.Designer.cs">
+      <DependentUpon>TcpTestMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TcpTest\TestTcpClient.cs" />
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Services\ModuleActivator.cs" />
+    <Compile Include="Services\ModuleLocator.cs" />
+    <Compile Include="Services\ModulesHostingService.cs" />
+    <Compile Include="Services\ModuleTypesResolver.cs" />
+    <Compile Include="Services\TransitionService.cs" />
+    <Compile Include="Services\WaitingService.cs" />
+    <Compile Include="Services\WorkspaceService.cs" />
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmitStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmitStatus.Designer.cs">
+      <DependentUpon>SubmitStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SusException\AuthorizationException.cs" />
+    <Compile Include="SuspeSysSetting.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>SuspeSysSetting.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SuspeTool.cs" />
+    <Compile Include="Test\MainRibbonForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\MainRibbonForm1.Designer.cs">
+      <DependentUpon>MainRibbonForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\CollectionViewFiltersVisibility.cs" />
+    <Compile Include="ViewModels\CustomerReportType.cs" />
+    <Compile Include="ViewModels\EmployeeReportType.cs" />
+    <Compile Include="ViewModels\Helpers.cs" />
+    <Compile Include="ViewModels\Interfaces.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\ModuleResourceProvider.cs" />
+    <Compile Include="ViewModels\OAuthData.cs" />
+    <Compile Include="ViewModels\ProductReportType.cs" />
+    <Compile Include="ViewModels\ReportViewModelBase.cs" />
+    <Compile Include="ViewModels\SalesReportType.cs" />
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XRDesignRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XRDesignRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XtraUserControl1.Designer.cs">
+      <DependentUpon>XtraUserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Modules\Attendance\ClassesEmployeesInput.resx">
+      <DependentUpon>ClassesEmployeesInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Attendance\HolidayIndex.resx">
+      <DependentUpon>HolidayIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Ext\InputForm.resx">
+      <DependentUpon>InputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\LED\HourlyPlan.resx">
+      <DependentUpon>HourlyPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\LED\LEDBoardSet.resx">
+      <DependentUpon>LEDBoardSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePwd.resx">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\CommonResources.resx" />
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginWaiting.resx">
+      <DependentUpon>frmLoginWaiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain1.resx">
+      <DependentUpon>frmMain1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest2.resx">
+      <DependentUpon>frmTest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resource.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resources.zh-CHS.resx" />
+    <EmbeddedResource Include="LockScreen.resx">
+      <DependentUpon>LockScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Attendance\ClassesEmployeesIndex.resx">
+      <DependentUpon>ClassesEmployeesIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Attendance\ClassesInfoIndex.resx">
+      <DependentUpon>ClassesInfoIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Attendance\ClassesInfoInput.resx">
+      <DependentUpon>ClassesInfoInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\AuthorizationManagement\InitAppInfo.resx">
+      <DependentUpon>InitAppInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\AuthorizationManagement\RegIndex.resx">
+      <DependentUpon>RegIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\AuthorizationManagement\AuthorizationIndex.resx">
+      <DependentUpon>AuthorizationIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BaseModule.resx">
+      <DependentUpon>BaseModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\BasicColorTableIndex.resx">
+      <DependentUpon>BasicColorTableIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\LackOfMaterialCodeIndex.resx">
+      <DependentUpon>LackOfMaterialCodeIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\DefectCodeIndex.resx">
+      <DependentUpon>DefectCodeIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\StyleIndex.resx">
+      <DependentUpon>StyleIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\StyleProcessLirbaryIndex.resx">
+      <DependentUpon>StyleProcessLirbaryIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\BasicProcessLirbaryIndex.resx">
+      <DependentUpon>BasicProcessLirbaryIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\BasicProcessSectionIndex.resx">
+      <DependentUpon>BasicProcessSectionIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\BasicSizeTableIndex.resx">
+      <DependentUpon>BasicSizeTableIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\StyleProcessLirbaryInput.resx">
+      <DependentUpon>StyleProcessLirbaryInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicInfo\StyleProcessLirbaryInputMain.resx">
+      <DependentUpon>StyleProcessLirbaryInputMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ChangeDatabase.resx">
+      <DependentUpon>ChangeDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Customer\CustomerOrderIndex.resx">
+      <DependentUpon>CustomerOrderIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Customer\CustomerOrderInput.resx">
+      <DependentUpon>CustomerOrderInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\CuttingBed\GoodCardInfoIndex.resx">
+      <DependentUpon>GoodCardInfoIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Ext\CRUDControl.resx">
+      <DependentUpon>CRUDControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Ext\SusXtraUserControl.resx">
+      <DependentUpon>SusXtraUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\MultipleLanguage\MulLanguageIndex.resx">
+      <DependentUpon>MulLanguageIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Permission\ModuleAdd.resx">
+      <DependentUpon>ModuleAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Permission\ModuleIndex.resx">
+      <DependentUpon>ModuleIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Permission\RoleIndex.resx">
+      <DependentUpon>RoleIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Permission\RoleModuleIndex.resx">
+      <DependentUpon>RoleModuleIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Permission\UserAdd.resx">
+      <DependentUpon>UserAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PersonnelManagement\CardInfoAdd.resx">
+      <DependentUpon>CardInfoAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PersonnelManagement\CardInfoIndex.resx">
+      <DependentUpon>CardInfoIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PersonnelManagement\EmployeeAdd.resx">
+      <DependentUpon>EmployeeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PersonnelManagement\FactoryIndex.resx">
+      <DependentUpon>FactoryIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PersonnelManagement\UserOperatorLogDetail.resx">
+      <DependentUpon>UserOperatorLogDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PersonnelManagement\UserOperatorLogIndex.resx">
+      <DependentUpon>UserOperatorLogIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PersonnelManagement\WorkshopIndex.resx">
+      <DependentUpon>WorkshopIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\ProcessFlowChartIndex.resx">
+      <DependentUpon>ProcessFlowChartIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\ProcessFlowIndex.resx">
+      <DependentUpon>ProcessFlowIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\ProcessFlowChartMain.resx">
+      <DependentUpon>ProcessFlowChartMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\ProcessFlowMain.resx">
+      <DependentUpon>ProcessFlowMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\ProcessOrdersInputNew.resx">
+      <DependentUpon>ProcessOrdersInputNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\PurchaseProcessOrdersInput.resx">
+      <DependentUpon>PurchaseProcessOrdersInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\PurchaseProcessOrdersInputMain.resx">
+      <DependentUpon>PurchaseProcessOrdersInputMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\BridgeSetIndex.resx">
+      <DependentUpon>BridgeSetIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\ClientInfo.resx">
+      <DependentUpon>ClientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\ClientMancheParamterSet.resx">
+      <DependentUpon>ClientMancheParamterSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\ControlConfiguration.resx">
+      <DependentUpon>ControlConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\HangUpLineSet.resx">
+      <DependentUpon>HangUpLineSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\PipelineIndex.resx">
+      <DependentUpon>PipelineIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\PipelineMain.resx">
+      <DependentUpon>PipelineMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\StatingInput.resx">
+      <DependentUpon>StatingInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\SystemMsg.resx">
+      <DependentUpon>SystemMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionLineSet\UserParamterSet.resx">
+      <DependentUpon>UserParamterSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Products\frmChangeFlowChart.resx">
+      <DependentUpon>frmChangeFlowChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Products\ProductPartIndex.resx">
+      <DependentUpon>ProductPartIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Products\ProductsInput.resx">
+      <DependentUpon>ProductsInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\CoatHangerIndex.resx">
+      <DependentUpon>CoatHangerIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\EmployeeDialog.resx">
+      <DependentUpon>EmployeeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\OnlineOrInStationItem.resx">
+      <DependentUpon>OnlineOrInStationItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\ProductRealtimeInfoIndex.resx">
+      <DependentUpon>ProductRealtimeInfoIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\ProductsingInfoIndex.resx">
+      <DependentUpon>ProductsingInfoIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\SetAdjustmentPlanYield.resx">
+      <DependentUpon>SetAdjustmentPlanYield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\SetAdjustmentUnitProductsQuantity.resx">
+      <DependentUpon>SetAdjustmentUnitProductsQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\RealtimeInfo\StatingPropertyMaintain.resx">
+      <DependentUpon>StatingPropertyMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\DefectAnalysisReport.resx">
+      <DependentUpon>DefectAnalysisReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\EmployeeYieldReport.resx">
+      <DependentUpon>EmployeeYieldReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\FlowBalanceTableReport.resx">
+      <DependentUpon>FlowBalanceTableReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\GroupCompetitionReport.resx">
+      <DependentUpon>GroupCompetitionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\ProductItemReport.resx">
+      <DependentUpon>ProductItemReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\ReportEmployeeYield.resx">
+      <DependentUpon>ReportEmployeeYield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\ReworkCollAndDefectAnalysisReport.resx">
+      <DependentUpon>ReworkCollAndDefectAnalysisReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\ReworkDetailReport.resx">
+      <DependentUpon>ReworkDetailReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\UCBaseReort.resx">
+      <DependentUpon>UCBaseReort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\UCRportTest.resx">
+      <DependentUpon>UCRportTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\WorkingHoursAnalysisReport.resx">
+      <DependentUpon>WorkingHoursAnalysisReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reports\YieldCollect.resx">
+      <DependentUpon>YieldCollect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SewingMachine\FalutCodeTableIndex.resx">
+      <DependentUpon>FalutCodeTableIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SewingMachine\MechanicEmployeeIndex.resx">
+      <DependentUpon>MechanicEmployeeIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SewingMachine\SewingMachineDataIndex.resx">
+      <DependentUpon>SewingMachineDataIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SewingMachine\SewingMachineLoginLogIndex.resx">
+      <DependentUpon>SewingMachineLoginLogIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SewingMachine\SewingMachineRepairLogIndex.resx">
+      <DependentUpon>SewingMachineRepairLogIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SewingMachine\SewingMachineTypeIndex.resx">
+      <DependentUpon>SewingMachineTypeIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\ChangeUser.resx">
+      <DependentUpon>ChangeUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\EmployeesDialog.resx">
+      <DependentUpon>EmployeesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\HangingPieceStatingDialog.resx">
+      <DependentUpon>HangingPieceStatingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\PColorAndSizeDialog.resx">
+      <DependentUpon>PColorAndSizeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\ColorAndSizeDialog.resx">
+      <DependentUpon>ColorAndSizeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\ProcessOrderIndex.resx">
+      <DependentUpon>ProcessOrderIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Customer\CustomerInfoIndex.resx">
+      <DependentUpon>CustomerInfoIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProduceData\ProcessOrdersInput.resx">
+      <DependentUpon>ProcessOrdersInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\CopyProcessOrderDialog.resx">
+      <DependentUpon>CopyProcessOrderDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\CustomerOrderSelectDialog.resx">
+      <DependentUpon>CustomerOrderSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\StyleSelectDialog.resx">
+      <DependentUpon>StyleSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusDialog\CustomerSelectDialog.resx">
+      <DependentUpon>CustomerSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusEmpty.resx">
+      <DependentUpon>SusEmpty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusFlowChartControl.resx">
+      <DependentUpon>SusFlowChartControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusGrid.resx">
+      <DependentUpon>SusGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusPage.resx">
+      <DependentUpon>SusPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Suspe\Suspe.resx">
+      <DependentUpon>Suspe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusQueryControl.resx">
+      <DependentUpon>SusQueryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusToolBar.resx">
+      <DependentUpon>SusToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusToolBar2.resx">
+      <DependentUpon>SusToolBar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SusTreeView.resx">
+      <DependentUpon>SusTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\TcpTest\HangerSendStatus.resx">
+      <DependentUpon>HangerSendStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\TcpTest\HangerToMainTrack.resx">
+      <DependentUpon>HangerToMainTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\TcpTest\ProcessFlowHangingPiece.resx">
+      <DependentUpon>ProcessFlowHangingPiece.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\TcpTest\TcpConected.resx">
+      <DependentUpon>TcpConected.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\TcpTest\TcpTestMain.resx">
+      <DependentUpon>TcpTestMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SuspeSys.Domain.Ext.ReportModel.EmployeeYieldReportModel.datasource" />
+    <None Include="Properties\licenses.licx">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmitStatus.resx">
+      <DependentUpon>SubmitStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\MainRibbonForm1.resx">
+      <DependentUpon>MainRibbonForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRDesignRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XRDesignRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraUserControl1.resx">
+      <DependentUpon>XtraUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\vssver2.scc" />
+    <None Include="SuspeSysSetting.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SuspeSysSetting.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="系统操作说明.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\copy.ico" />
+    <EmbeddedResource Include="Images\delete.ico" />
+    <EmbeddedResource Include="Images\move.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tasks1.png" />
+    <None Include="Resources\shell322251.png" />
+    <None Include="Resources\shell322211.png" />
+    <None Include="Resources\shell322171.png" />
+    <None Include="Resources\shell322101.png" />
+    <None Include="Resources\shell321711.png" />
+    <None Include="Resources\Shell321471.png" />
+    <None Include="Resources\shell321281.png" />
+    <None Include="Resources\Shell32113_161.png" />
+    <None Include="Resources\shell320761.png" />
+    <None Include="Resources\Shell32039_321.png" />
+    <None Include="Resources\Shell32022_321.png" />
+    <None Include="Resources\Shell32016_321.png" />
+    <None Include="Resources\OutlookEingang1.png" />
+    <None Include="Resources\notes1.png" />
+    <None Include="Resources\Mail1.png" />
+    <None Include="Resources\contact1.png" />
+    <None Include="Resources\calendar1.png" />
+    <EmbeddedResource Include="Resources\calendar.png" />
+    <EmbeddedResource Include="Resources\contact.png" />
+    <EmbeddedResource Include="Resources\Mail.png" />
+    <EmbeddedResource Include="Resources\notes.png" />
+    <EmbeddedResource Include="Resources\OutlookEingang.png" />
+    <EmbeddedResource Include="Resources\Shell32016_32.png" />
+    <EmbeddedResource Include="Resources\Shell32022_32.png" />
+    <EmbeddedResource Include="Resources\Shell32039_32.png" />
+    <EmbeddedResource Include="Resources\shell32076.png" />
+    <EmbeddedResource Include="Resources\Shell32113_16.png" />
+    <EmbeddedResource Include="Resources\shell32128.png" />
+    <EmbeddedResource Include="Resources\Shell32147.png" />
+    <EmbeddedResource Include="Resources\shell32171.png" />
+    <EmbeddedResource Include="Resources\shell32210.png" />
+    <EmbeddedResource Include="Resources\shell32217.png" />
+    <EmbeddedResource Include="Resources\shell32221.png" />
+    <EmbeddedResource Include="Resources\shell32225.png" />
+    <EmbeddedResource Include="Resources\tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyph-backg-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyph-backg-normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyph-backg-pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyph-mail-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyph-message-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyph-phone-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyph-video-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HighPriority.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-A-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-A-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-about-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-about-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-add-column-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-arrow-bear-left-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-arrow-bear-right-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-arrow-forward-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-arrow-left-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-arrow-right-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-arrow-turn-right-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-arrow-turn-left-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-B-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-B-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-brand-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-buy-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-buy-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-card-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-card-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-carousel-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-carousel-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-change-view-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-change-view-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-close-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-close-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-cost-analysis-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-cost-analysis-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-cusomer-profile-report-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-contact-directory-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-contact-directory-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-profile-report-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-quick-employees-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-quick-locations-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-quick-sales-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-sale-detalis-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-sale-detalis-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-sales-summary-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-customer-sales-summary-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-data-panel-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-data-panel-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-delete-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-delete-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-docking-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-driving-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-driving-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-driving-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-edit-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-edit-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-email-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-directory-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-directory-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-profile-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-profile-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-quick-award-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-quick-exellece-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-quick-probation-notice-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-quick-thank-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-quick-welcome-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-summary-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-summary-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-task-list-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-employee-task-list-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-expand-collapse-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-expand-collapse-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-export-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-export-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-export-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-filter-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-filter-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-fittopage-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-folder-panel-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-folder-panel-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-getting-started-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-getting-started-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-Hide-product-img-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-Hide-product-img-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-home-phone-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-list-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-list-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mail-merge-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mail-merge-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mapit-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mapit-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-meeting-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-meeting-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mobile-phone-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-customers-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-customers-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-employees-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-employees-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-opportunities-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-opportunities-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-products-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-products-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-sales-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-nav-sales-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-navigate-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-navigate-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-customers-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-customers-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-doc-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-doc-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-employee-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-employee-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-group-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-group-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-item-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-item-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-opportunities-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-opportunities-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-products-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-products-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-sales-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-new-sales-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-normal-bottom-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-open-doc-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-open-doc-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-hight-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-hight-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-low-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-low-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-medium-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-medium-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-unlike-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-opportunities-unlike-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-page-next-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-page-prev-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-pages-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-panel-bottom-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-panel-bottom-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-panel-off-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-panel-off-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-panel-right-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-panel-right-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-prefix-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-42x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-due-date-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-due-date-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-exclude-evaluations-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-include-evaluations-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-preview-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-preview-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-quick-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-quick-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-sort-ascending-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-sort-ascending-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-sort-descinding-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-sort-descinding-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-start-date-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-print-start-date-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-order-detail-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-order-detail-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-quick-comparisons-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-quick-sales-report-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-quick-shippments-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-quick-top-salesperson-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-sales-summary-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-sales-summary-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-specification-summary-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-product-specification-summary-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-reading-bottom-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-redo-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-redo-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-reset-changes-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-reset-changes-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-revers-sort-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-revers-sort-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-revert-direction-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-analysis-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-analysis-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-by-store-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-invoice-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-period-lifetime-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-period-lifetime-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-period-month-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-period-month-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-period-year-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-period-year-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-quick-invoice-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-quick-report-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-quick-summary-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-quick-thankyou-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-sales-report-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-save-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-save-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-save-as-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-save-as-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-save-close-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-save-close-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-show-product-img-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-show-product-img-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-skype-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-Sort-by-Invoice-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-Sort-by-Invoice-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-Sort-by-OrderDate-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-Sort-by-OrderDate-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-support-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-support-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-task-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-task-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-undo-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-undo-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-view-reset-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-view-reset-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-view-setting-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-view-setting-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-walking-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-walking-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-walking-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jolt-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LowPriority.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MediumPriority.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Miss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mrs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NormalPriority.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overview-Buy-Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overview-Support-Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overview-Getting-Started-Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overview-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UISuperHero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sys_setting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Action\Attendance\Model\" />
+    <Folder Include="Action\DataView\" />
+    <Folder Include="Action\Permission\Model\" />
+    <Folder Include="Action\Report\Model\" />
+    <Folder Include="Action\Users\" />
+    <Folder Include="Modules\Impl\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\menu\menu-stop-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\menu\men-hanger-32.png" />
+    <EmbeddedResource Include="Resources\menu\menu-Cuttingbed32.png" />
+    <EmbeddedResource Include="Resources\menu\menu-hastily-stop64.png" />
+    <EmbeddedResource Include="Resources\menu\menu-HR-32.png" />
+    <EmbeddedResource Include="Resources\menu\menu-permission-32.png" />
+    <EmbeddedResource Include="Resources\menu\menu-process-order32.png" />
+    <EmbeddedResource Include="Resources\menu\menu-realtime-info32.png" />
+    <EmbeddedResource Include="Resources\menu\menu-start-64.png" />
+    <EmbeddedResource Include="Resources\menu\menu-stat-report32.png" />
+    <EmbeddedResource Include="Resources\menu\menu-workcheck-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\hibernate.cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\log4net.cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\原始背景180704a.jpg" />
+    <None Include="Resources\login180204a.png" />
+    <None Include="Resources\loading.bmp" />
+    <Content Include="Resources\loading.gif" />
+    <Content Include="Resources\lockScreen.jpg" />
+    <Content Include="Resources\logbg4.png" />
+    <Content Include="Resources\loginBg.png" />
+    <Content Include="Resources\login2.png" />
+    <Content Include="Resources\login1.png" />
+    <EmbeddedResource Include="Resources\logo\logo.ico" />
+    <EmbeddedResource Include="Resources\Chart\gongren16.png" />
+    <EmbeddedResource Include="Resources\Chart\gongren32.png" />
+    <EmbeddedResource Include="Resources\Chart\gongrennan16.png" />
+    <EmbeddedResource Include="Resources\Chart\gongrennan32.png" />
+    <EmbeddedResource Include="Resources\Chart\gongrennv16.png" />
+    <EmbeddedResource Include="Resources\Chart\gongrennv32.png" />
+    <EmbeddedResource Include="Resources\Chart\zhandian16.png" />
+    <EmbeddedResource Include="Resources\Chart\zhandian32.png" />
+    <EmbeddedResource Include="Resources\Chart\zhandianb16.png" />
+    <EmbeddedResource Include="Resources\Chart\zhandianb32.png" />
+    <None Include="Resources\login_bg_0704.png" />
+    <None Include="Resources\login_bg_0718.png" />
+    <None Include="Resources\login_bg_07181.png" />
+    <Content Include="Resources\login_btn1.gif" />
+    <Content Include="Resources\login_btn2.png" />
+    <None Include="Resources\logo1.ico" />
+    <Content Include="Resources\menu\menu-orders32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sus.Net.Common\Sus.Net.Common.csproj">
+      <Project>{7ef7b4dd-57c3-478d-b750-7ad9140d717d}</Project>
+      <Name>Sus.Net.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite\SuspeSys.Client.Sqlite.csproj">
+      <Project>{dfde17b4-af22-446d-8796-ca5031609686}</Project>
+      <Name>SuspeSys.Client.Sqlite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Control\SuspeSys.CustomerControls.csproj">
+      <Project>{294a9554-e19a-4da4-8ec0-a6a81d4186a1}</Project>
+      <Name>SuspeSys.CustomerControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Model\SuspeSys.Domain.csproj">
+      <Project>{b965cbb5-41a5-4bba-917f-4af482a56221}</Project>
+      <Name>SuspeSys.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Service.Impl\SuspeSys.Service.Impl.csproj">
+      <Project>{d67aa225-9127-4830-98a0-ce10ac98197a}</Project>
+      <Name>SuspeSys.Service.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Service\SuspeSys.Service.csproj">
+      <Project>{693BCC80-D01B-4686-ABFE-04E403B5A1C9}</Project>
+      <Name>SuspeSys.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Support\SuspeSys.Support.csproj">
+      <Project>{59315486-A0BC-424A-A0C5-FD791A6EB9D2}</Project>
+      <Name>SuspeSys.Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.SusRedisService\SuspeSys.SusRedisService.csproj">
+      <Project>{F8A5C144-6092-445E-A660-0124DEE0FCC3}</Project>
+      <Name>SuspeSys.SusRedisService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.SusRedis\SuspeSys.SusRedis.csproj">
+      <Project>{9F2D2F9F-7DCA-4509-B1B1-CA4CCF87FF50}</Project>
+      <Name>SuspeSys.SusRedis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Utils\SuspeSys.Utils.csproj">
+      <Project>{F3AC00B0-4BC8-423F-9EE3-E836765F1A93}</Project>
+      <Name>SuspeSys.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.107.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.107.0\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此项目引用这台计算机上缺少的 NuGet 程序包。使用 NuGet 程序包还原可下载这些程序包。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.107.0\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.107.0\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

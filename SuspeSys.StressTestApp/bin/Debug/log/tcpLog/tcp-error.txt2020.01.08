@@ -1,0 +1,6 @@
+2020-01-08 18:35:27,751 [60] ERROR TcpErrorInfo [(null)] <(null)> - System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 Sus.Net.Client.Sockets.AsyncTcpClient.HandleDatagramReceived(IAsyncResult ar) 位置 E:\suspe-source\SuspeSys2.0\Sus.Net.Client\Sockets\AsyncTcpClient.cs:行号 339

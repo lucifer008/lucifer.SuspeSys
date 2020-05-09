@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="OrderProductItem" table="OrderProductItem" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <many-to-one name="ProductOrder">
+      <column name="PRODUCTORDER_Id" sql-type="char" not-null="false" />
+    </many-to-one>
+    <property name="SequenceNumber">
+      <column name="SequenceNumber" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProductNo">
+      <column name="ProductNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProductName">
+      <column name="ProductName" sql-type="char" not-null="false" />
+    </property>
+    <property name="Color">
+      <column name="Color" sql-type="char" not-null="false" />
+    </property>
+    <property name="Rule">
+      <column name="Rule" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProductNum">
+      <column name="ProductNum" sql-type="bigint" not-null="false" />
+    </property>
+    <property name="ProductUnit">
+      <column name="ProductUnit" sql-type="char" not-null="false" />
+    </property>
+    <property name="BoxNum">
+      <column name="BoxNum" sql-type="int" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

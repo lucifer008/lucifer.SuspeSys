@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="e:\suspe-source\suspesys2.0\suspesys.coretest\orderedtest1.orderedtest" id="5d255dae-2645-4d45-aa81-0b85baaf8adc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="3da2c046-0373-79ae-e5ec-797c5bc3305a" name="HangingPieceOutSiteDoServiceTest" storage="bin\debug\suspesys.coretest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="45ee7828-d90d-21af-8cd7-2131e95de7bf" name="CommonStatingOutSiteDoServiceTest9" storage="bin\debug\suspesys.coretest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f855fc37-0c3c-e41f-715a-4af07425a5d2" name="BridgeSetOutSiteDoServiceTest_100" storage="bin\debug\suspesys.coretest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

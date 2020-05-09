@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E09563D0-4E7C-4F02-9C9B-7A6C50499FFB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuspeSys.Dao</RootNamespace>
+    <AssemblyName>SuspeSys.Dao</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\Libs\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.5\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="HibernatingRhinos.Profiler.Appender">
+      <HintPath>..\Libs\HibernatingRhinos.Profiler.Appender.dll</HintPath>
+    </Reference>
+    <Reference Include="HibernatingRhinos.Profiler.Appender.NHibernateLog4Net">
+      <HintPath>..\Libs\HibernatingRhinos.Profiler.Appender.NHibernateLog4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=0.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaDao.cs" />
+    <Compile Include="Base\DataBase.cs" />
+    <Compile Include="Base\IDataBase.cs" />
+    <Compile Include="BasicProcessFlowDao.cs" />
+    <Compile Include="BridgeSetDao.cs" />
+    <Compile Include="CardInfoDao.cs" />
+    <Compile Include="CardLoginInfoDao.cs" />
+    <Compile Include="ChangeCardResumeDao.cs" />
+    <Compile Include="CityDao.cs" />
+    <Compile Include="ClassesEmployeeDao.cs" />
+    <Compile Include="ClassesInfoDao.cs" />
+    <Compile Include="ClientMachinesDao.cs" />
+    <Compile Include="ClothingVehicleDao.cs" />
+    <Compile Include="ClothingVehicleMaintenanceLogsDao.cs" />
+    <Compile Include="ClothingVehicleTypeDao.cs" />
+    <Compile Include="CompanyDao.cs" />
+    <Compile Include="CustomerDao.cs" />
+    <Compile Include="CustomerPurchaseOrderColorItemDao.cs" />
+    <Compile Include="CustomerPurchaseOrderColorSizeItemDao.cs" />
+    <Compile Include="CustomerPurchaseOrderDao.cs" />
+    <Compile Include="FaultCodeTableDao.cs" />
+    <Compile Include="HangerResumeDao.cs" />
+    <Compile Include="MechanicEmployeesDao.cs" />
+    <Compile Include="SewingMachineLoginLogDao.cs" />
+    <Compile Include="SuspeDapper\DapperHelp.cs" />
+    <Compile Include="DefectCodeTableDao.cs" />
+    <Compile Include="DepartmentDao.cs" />
+    <Compile Include="EmployeeCardRelationDao.cs" />
+    <Compile Include="EmployeeDao.cs" />
+    <Compile Include="EmployeeFlowProductionDao.cs" />
+    <Compile Include="EmployeeGradeDao.cs" />
+    <Compile Include="EmployeePositionsDao.cs" />
+    <Compile Include="EmployeeRoleRelationDao.cs" />
+    <Compile Include="EmployeeSchedulingDao.cs" />
+    <Compile Include="FactoryDao.cs" />
+    <Compile Include="FlowActionDao.cs" />
+    <Compile Include="FlowStatingColorDao.cs" />
+    <Compile Include="FlowStatingDao.cs" />
+    <Compile Include="FlowStatingResumeDao.cs" />
+    <Compile Include="FlowStatingSizeDao.cs" />
+    <Compile Include="HangerDao.cs" />
+    <Compile Include="HangerProductFlowChartDao.cs" />
+    <Compile Include="HangerProductItemDao.cs" />
+    <Compile Include="HangerReworkRecordDao.cs" />
+    <Compile Include="HangerReworkRequestDao.cs" />
+    <Compile Include="HangerReworkRequestItemDao.cs" />
+    <Compile Include="HangerReworkRequestQueueDao.cs" />
+    <Compile Include="HangerReworkRequestQueueItemDao.cs" />
+    <Compile Include="HangerStatingAllocationItemDao.cs" />
+    <Compile Include="HolidayInfoDao.cs" />
+    <Compile Include="IdGeneratorDao.cs" />
+    <Compile Include="LackMaterialsTableDao.cs" />
+    <Compile Include="LedHoursPlanTableItemDao.cs" />
+    <Compile Include="LedScreenConfigDao.cs" />
+    <Compile Include="LedScreenPageDao.cs" />
+    <Compile Include="MainTrackDao.cs" />
+    <Compile Include="MainTrackOperateRecordDao.cs" />
+    <Compile Include="ModulesDao.cs" />
+    <Compile Include="Nhibernate\Suspe\AliasedTupleSubsetResultTransformer.cs" />
+    <Compile Include="Nhibernate\Suspe\AliasToBeanResultTransformer.cs" />
+    <Compile Include="Nhibernate\Suspe\BeanTransformerAdapter.cs" />
+    <Compile Include="Nhibernate\ISSSession.cs" />
+    <Compile Include="Nhibernate\NHibernateHelper.cs" />
+    <Compile Include="Nhibernate\SessionFactory.cs" />
+    <Compile Include="Nhibernate\SQLWatcher.cs" />
+    <Compile Include="Nhibernate\Suspe\Interface\ITupleSubsetResultTransformer.cs" />
+    <Compile Include="Nhibernate\Suspe\Transformers.cs" />
+    <Compile Include="OrderProductItemDao.cs" />
+    <Compile Include="OrganizationsDao.cs" />
+    <Compile Include="PipeliningDao.cs" />
+    <Compile Include="PipeliningSiteGroupRelationDao.cs" />
+    <Compile Include="PoColorDao.cs" />
+    <Compile Include="PositionDao.cs" />
+    <Compile Include="ProcessCraftActionDao.cs" />
+    <Compile Include="ProcessFlowChartDao.cs" />
+    <Compile Include="ProcessFlowChartFlowRelationDao.cs" />
+    <Compile Include="ProcessFlowChartGropDao.cs" />
+    <Compile Include="ProcessFlowDao.cs" />
+    <Compile Include="ProcessFlowSectionDao.cs" />
+    <Compile Include="ProcessFlowSectionItemDao.cs" />
+    <Compile Include="ProcessFlowStatingItemDao.cs" />
+    <Compile Include="ProcessFlowVersionDao.cs" />
+    <Compile Include="ProcessOrderColorItemDao.cs" />
+    <Compile Include="ProcessOrderColorSizeItemDao.cs" />
+    <Compile Include="ProcessOrderDao.cs" />
+    <Compile Include="ProcessOrderItemDao.cs" />
+    <Compile Include="ProcessOrderPurchaseOrderItemDao.cs" />
+    <Compile Include="ProdTypeDao.cs" />
+    <Compile Include="ProductGroupDao.cs" />
+    <Compile Include="ProductOrderDao.cs" />
+    <Compile Include="ProductsDao.cs" />
+    <Compile Include="ProductsHangPieceResumeDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvinceDao.cs" />
+    <Compile Include="PSizeDao.cs" />
+    <Compile Include="RolesDao.cs" />
+    <Compile Include="RolesModulesDao.cs" />
+    <Compile Include="SiteGroupDao.cs" />
+    <Compile Include="StatingDao.cs" />
+    <Compile Include="StatingDirectionDao.cs" />
+    <Compile Include="StatingHangerProductItemDao.cs" />
+    <Compile Include="StatingRolesDao.cs" />
+    <Compile Include="StyleDao.cs" />
+    <Compile Include="StyleProcessFlowItemDao.cs" />
+    <Compile Include="StyleProcessFlowSectionItemDao.cs" />
+    <Compile Include="StyleProcessFlowStoreDao.cs" />
+    <Compile Include="SuccessHangerProductFlowChartDao.cs" />
+    <Compile Include="SuccessHangerStatingAllocationItemDao.cs" />
+    <Compile Include="SuccessStatingHangerProductItemDao.cs" />
+    <Compile Include="SucessEmployeeFlowProductionDao.cs" />
+    <Compile Include="SucessHangerProductItemDao.cs" />
+    <Compile Include="SucessHangerReworkRecordDao.cs" />
+    <Compile Include="SucessProcessOrderHangerDao.cs" />
+    <Compile Include="SucessProductsDao.cs" />
+    <Compile Include="SusLanguageDao.cs" />
+    <Compile Include="SystemModuleParameterDao.cs" />
+    <Compile Include="SystemModuleParameterDomainDao.cs" />
+    <Compile Include="SystemModuleParameterValueDao.cs" />
+    <Compile Include="TestSiteTableDao.cs" />
+    <Compile Include="UserClientMachinesDao.cs" />
+    <Compile Include="UserClientMachinesPipeliningsDao.cs" />
+    <Compile Include="UserLoginInfoDao.cs" />
+    <Compile Include="UserOperateLogDetailDao.cs" />
+    <Compile Include="UserOperateLogsDao.cs" />
+    <Compile Include="UserRolesDao.cs" />
+    <Compile Include="UsersDao.cs" />
+    <Compile Include="WaitProcessOrderHangerDao.cs" />
+    <Compile Include="WorkshopDao.cs" />
+    <Compile Include="WorkTypeDao.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuspeSys.Model\SuspeSys.Domain.csproj">
+      <Project>{b965cbb5-41a5-4bba-917f-4af482a56221}</Project>
+      <Name>SuspeSys.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Support\SuspeSys.Support.csproj">
+      <Project>{59315486-a0bc-424a-a0c5-fd791a6eb9d2}</Project>
+      <Name>SuspeSys.Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuspeSys.Utils\SuspeSys.Utils.csproj">
+      <Project>{F3AC00B0-4BC8-423F-9EE3-E836765F1A93}</Project>
+      <Name>SuspeSys.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Impl\" />
+    <Folder Include="SubMappings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\ClassesInfo.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Department.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Employee.hbm.xml" />
+    <EmbeddedResource Include="Mappings\EmployeeGrade.hbm.xml" />
+    <EmbeddedResource Include="Mappings\EmployeeRoleRelation.hbm.xml" />
+    <EmbeddedResource Include="Mappings\EmployeeScheduling.hbm.xml" />
+    <EmbeddedResource Include="Mappings\FlowStating.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Hanger.hbm.xml" />
+    <EmbeddedResource Include="Mappings\HolidayInfo.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Modules.hbm.xml" />
+    <EmbeddedResource Include="Mappings\OrderProductItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Organizations.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Position.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessCraftAction.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessFlow.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessFlowChart.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessFlowChartFlowRelation.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessFlowSection.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessFlowVersion.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessOrder.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessOrderItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProductGroup.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProductOrder.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Roles.hbm.xml" />
+    <EmbeddedResource Include="Mappings\RolesModules.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SiteGroup.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Stating.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Style.hbm.xml" />
+    <EmbeddedResource Include="Mappings\StyleProcessFlowItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\WorkType.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\EmployeePositions.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Customer.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\PoColor.hbm.xml" />
+    <EmbeddedResource Include="Mappings\PSize.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\ProcessOrderColorItem.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mappings\ProcessOrderColorSizeItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\BasicProcessFlow.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\ProcessFlowSectionItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Area.hbm.xml" />
+    <EmbeddedResource Include="Mappings\City.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Company.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mappings\FlowAction.hbm.xml" />
+    <EmbeddedResource Include="Mappings\FlowStatingColor.hbm.xml" />
+    <EmbeddedResource Include="Mappings\FlowStatingResume.hbm.xml" />
+    <EmbeddedResource Include="Mappings\FlowStatingSize.hbm.xml" />
+    <EmbeddedResource Include="Mappings\IdGenerator.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessFlowChartGrop.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessFlowStatingItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Province.hbm.xml" />
+    <EmbeddedResource Include="Mappings\StatingRoles.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\StyleProcessFlowSectionItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\DefectCodeTable.hbm.xml" />
+    <EmbeddedResource Include="Mappings\LackMaterialsTable.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\CustomerPurchaseOrder.hbm.xml" />
+    <EmbeddedResource Include="Mappings\CustomerPurchaseOrderColorItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\CustomerPurchaseOrderColorSizeItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProcessOrderPurchaseOrderItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Pipelining.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProdType.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Products.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ProductsHangPieceResume.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SucessProcessOrderHanger.hbm.xml" />
+    <EmbeddedResource Include="Mappings\TestSiteTable.hbm.xml" />
+    <EmbeddedResource Include="Mappings\WaitProcessOrderHanger.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\PipeliningSiteGroupRelation.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\StatingDirection.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SusLanguage.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\HangerProductItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\StatingHangerProductItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\UserLoginInfo.hbm.xml" />
+    <EmbeddedResource Include="Mappings\UserOperateLogDetail.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mappings\UserOperateLogs.hbm.xml" />
+    <EmbeddedResource Include="Mappings\UserRoles.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Users.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\HangerReworkRecord.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\ClientMachines.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mappings\UserClientMachines.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\SuccessStatingHangerProductItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SucessHangerProductItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SucessHangerReworkRecord.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\SucessProducts.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\HangerStatingAllocationItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SuccessHangerStatingAllocationItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\CardInfo.hbm.xml" />
+    <EmbeddedResource Include="Mappings\CardLoginInfo.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ChangeCardResume.hbm.xml" />
+    <EmbeddedResource Include="Mappings\EmployeeCardRelation.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\UserClientMachinesPipelinings.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\EmployeeFlowProduction.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SucessEmployeeFlowProduction.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\MainTrack.hbm.xml" />
+    <EmbeddedResource Include="Mappings\MainTrackOperateRecord.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\ClassesEmployee.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Factory.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Workshop.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\HangerReworkRequest.hbm.xml" />
+    <EmbeddedResource Include="Mappings\HangerReworkRequestItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\HangerReworkRequestQueue.hbm.xml" />
+    <EmbeddedResource Include="Mappings\HangerReworkRequestQueueItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\HangerProductFlowChart.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SuccessHangerProductFlowChart.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\SystemModuleParameter.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\SystemModuleParameterDomain.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SystemModuleParameterValue.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mappings\ApplicationProfile.hbm.xml" />
+    <EmbeddedResource Include="Mappings\MechanicEmployees.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ClothingVehicle.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ClothingVehicleMaintenanceLogs.hbm.xml" />
+    <EmbeddedResource Include="Mappings\ClothingVehicleType.hbm.xml" />
+    <EmbeddedResource Include="Mappings\FaultCodeTable.hbm.xml" />
+    <EmbeddedResource Include="Mappings\HangerResume.hbm.xml" />
+    <Content Include="Mappings\LedHoursPlanTable.hbm.xml" />
+    <EmbeddedResource Include="Mappings\SewingMachineLoginLog.hbm.xml" />
+    <EmbeddedResource Include="Mappings\BridgeSet.hbm.xml" />
+    <EmbeddedResource Include="Mappings\LedHoursPlanTableItem.hbm.xml" />
+    <EmbeddedResource Include="Mappings\LedScreenConfig.hbm.xml" />
+    <EmbeddedResource Include="Mappings\LedScreenPage.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

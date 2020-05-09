@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BasicProcessFlow" table="BasicProcessFlow" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="ProcessCode">
+      <column name="ProcessCode" sql-type="char" not-null="false" />
+    </property>
+    <property name="ProcessStatus">
+      <column name="ProcessStatus" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="ProcessName">
+      <column name="ProcessName" sql-type="char" not-null="false" />
+    </property>
+    <property name="SortNo">
+      <column name="SortNo" sql-type="char" not-null="false" />
+    </property>
+    <property name="StanardSecond">
+      <column name="StanardSecond" sql-type="int" not-null="false" />
+    </property>
+    <property name="Sam">
+      <column name="SAM" sql-type="char" not-null="false" />
+    </property>
+    <property name="StanardHours">
+      <column name="StanardHours" sql-type="decimal" not-null="false" />
+    </property>
+    <property name="StandardPrice">
+      <column name="StandardPrice" sql-type="decimal" not-null="false" />
+    </property>
+    <property name="PrcocessRmark">
+      <column name="PrcocessRmark" sql-type="char" not-null="false" />
+    </property>
+    <property name="DefaultFlowNo">
+      <column name="DefaultFlowNo" sql-type="int" not-null="false" />
+    </property>
+    <property name="InsertDateTime">
+      <column name="InsertDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="UpdateDateTime">
+      <column name="UpdateDateTime" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="InsertUser">
+      <column name="InsertUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="UpdateUser">
+      <column name="UpdateUser" sql-type="char" not-null="false" />
+    </property>
+    <property name="Deleted">
+      <column name="Deleted" sql-type="tinyint" not-null="false" />
+    </property>
+    <property name="CompanyId">
+      <column name="CompanyId" sql-type="char" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

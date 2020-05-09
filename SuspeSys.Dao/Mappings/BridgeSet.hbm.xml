@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SuspeSys.Domain" namespace="SuspeSys.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BridgeSet" table="BridgeSet" lazy="false" >
+    <id name="Id" column="Id">
+      <column name="Id" sql-type="char" not-null="true" />
+      <generator class="uuid.hex" />
+    </id>
+    <property name="BIndex">
+      <column name="BIndex" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="AMainTrackNumber">
+      <column name="AMainTrackNumber" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="ASiteNo">
+      <column name="ASiteNo" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="Direction">
+      <column name="Direction" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="DirectionTxt">
+      <column name="DirectionTxt" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="BMainTrackNumber">
+      <column name="BMainTrackNumber" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="BSiteNo">
+      <column name="BSiteNo" sql-type="smallint" not-null="false" />
+    </property>
+    <property name="Enabled">
+      <column name="Enabled" sql-type="bit" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>
